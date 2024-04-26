@@ -1,0 +1,101 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr864_databaseforformses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr864_databaseforforms",
+    "Name": "Database for Forms",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr864_age": "Age",
+      "cr864_databaseforforms_AsyncOperations": "System Jobs",
+      "cr864_databaseforforms_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr864_databaseforforms_DuplicateBaseRecord": "Duplicate Records (cr864_databaseforforms_DuplicateBaseRecord)",
+      "cr864_databaseforforms_DuplicateMatchingRecord": "Duplicate Records (cr864_databaseforforms_DuplicateMatchingRecord)",
+      "cr864_databaseforforms_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr864_databaseforforms_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr864_databaseforforms_ProcessSession": "Process Sessions",
+      "cr864_databaseforforms_SyncErrors": "Sync Errors",
+      "cr864_databaseforformsid": "Database for Forms",
+      "cr864_email": "Email",
+      "cr864_name": "Name",
+      "cr864_numberofpeople": "Number of People",
+      "cr864_organization": "Organization",
+      "cr864_phonenumber": "Phone Number",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Database for Forms",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Database for Forms (Views)",
+    "Name": "_cr864_databaseforforms_views",
+    "RelatedEntityName": "Database for Forms",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "4b0f0baf-7ecd-4eea-8dcc-fcd6bc6047ed": "Database for Forms Associated View",
+      "4cdc9cb2-7cc2-49c3-b0d3-96dcafffa3b1": "Database for Forms Advanced Find View",
+      "95fb17e0-2fd2-4977-b37f-6abcfa9a504a": "Inactive Database for Forms",
+      "b5457fd0-284f-47bf-9358-e17657de06bf": "Database for Forms Lookup View",
+      "cff59bbf-ffcc-4c0a-a4a6-89fa0ebff304": "Active Database for Forms"
+    }
+  },
+  {
+    "DisplayName": "Status (Database for Forms)",
+    "Name": "cr864_databaseforforms_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Database for Forms"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Database for Forms",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Database for Forms)",
+    "Name": "cr864_databaseforforms_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Database for Forms"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Database for Forms",
+    "Type": "OptionSetInfo"
+  }
+]

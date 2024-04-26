@@ -2,7 +2,7 @@
   "DatasetName": "default.cds",
   "EntityName": "Database for Profiles",
   "environmentVariableName": "",
-  "InstanceUrl": "https://orgeb967466.crm4.dynamics.com",
+  "InstanceUrl": "https://orgeb967466.crm4.dynamics.com/",
   "LocalReferenceDSJson": {
     "entitySetName": "cr864_databaseforprofileses",
     "logicalName": "cr864_databaseforprofiles"

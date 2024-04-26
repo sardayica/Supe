@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr864_databaseforprofiles",
+    "MaxGetRowsCount": 500,
     "Name": "Database for Profiles",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
