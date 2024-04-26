@@ -85,6 +85,7 @@ Screen2 As screen:
 
     Form2 As form:
         DataSource: ='Database for Forms'
+        Item: =Gallery1.Selected
         Width: =672
         X: =674
         Y: =38
