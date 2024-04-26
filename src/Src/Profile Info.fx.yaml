@@ -1,4 +1,4 @@
-Screen1 As screen:
+"'Profile Info' As screen":
 
     "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
         DelayItemLoading: =true
