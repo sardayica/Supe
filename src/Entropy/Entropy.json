@@ -96,7 +96,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/26/2024 11:39:46",
+  "HeaderLastSavedDateTimeUTC": "04/26/2024 11:41:06",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -107,8 +107,8 @@
   "OrderDataSource": {
     "CustomGallerySample": 6,
     "Database for Forms": 8,
-    "Database for Forms\\cr864_databaseforforms_statecode": 2,
-    "Database for Forms\\cr864_databaseforforms_statuscode": 3,
+    "Database for Forms\\cr864_databaseforforms_statecode": 3,
+    "Database for Forms\\cr864_databaseforforms_statuscode": 2,
     "Database for Forms\\default.cds_cr864_databaseforforms_views": 5,
     "Database for Profiles": 7,
     "Database for Profiles\\cr864_databaseforprofiles_statecode": 0,
@@ -321,19 +321,20 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.3919379,
+    "AnalysisLoadTime": 0.5946894,
     "ControlCount": {
-      "form": 1,
-      "gallery": 1,
-      "galleryTemplate": 1,
-      "icon": 1,
-      "label": 26,
-      "rectangle": 2,
+      "form": 2,
+      "gallery": 2,
+      "galleryTemplate": 2,
+      "icon": 2,
+      "image": 1,
+      "label": 46,
+      "rectangle": 4,
       "screen": 2,
-      "text": 8,
-      "typedDataCard": 8
+      "text": 14,
+      "typedDataCard": 14
     },
-    "DeserializationLoadTime": 2.3029463
+    "DeserializationLoadTime": 1.3658254
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
