@@ -43,19 +43,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Form1.'Age of Volunteers Needed_DataCard1'.DataCardValue8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Form1.'Age of Volunteers Needed_DataCard1'.DataCardValue8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1"
+                "type": "Screen1.Form1.'Age of Volunteers Needed_DataCard1'.DataCardValue8"
               }
             }
           ],
@@ -73,49 +73,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.TabIndex"
+                  "fullyQualifiedName": "Screen1.Form1.Address_DataCard1.DataCardValue7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Screen1",
-                "type": "Screen1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Form2.Name_DataCard2.DataCardValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Form2.Name_DataCard2.DataCardValue2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Form1.Address_DataCard1.DataCardValue7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form2.Name_DataCard2.DataCardValue2"
+                "type": "Screen1.Form1.Address_DataCard1.DataCardValue7"
               }
             }
           ],
@@ -133,19 +103,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form2.'Name of Organization_DataCard1'.DataCardValue3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Form1.'Phone Number_DataCard1'.DataCardValue6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form2.'Name of Organization_DataCard1'.DataCardValue3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Form1.'Phone Number_DataCard1'.DataCardValue6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form2.'Name of Organization_DataCard1'.DataCardValue3"
+                "type": "Screen1.Form1.'Phone Number_DataCard1'.DataCardValue6"
               }
             }
           ],
@@ -163,19 +133,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form2.'Description of Organization_DataCard1'.DataCardValue4.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Form1.'Secondary Email_DataCard1'.DataCardValue5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form2.'Description of Organization_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Form1.'Secondary Email_DataCard1'.DataCardValue5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form2.'Description of Organization_DataCard1'.DataCardValue4"
+                "type": "Screen1.Form1.'Secondary Email_DataCard1'.DataCardValue5"
               }
             }
           ],
@@ -193,19 +163,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form2.'Primary Email_DataCard1'.DataCardValue5.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Form1.'Primary Email_DataCard1'.DataCardValue4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form2.'Primary Email_DataCard1'.DataCardValue5.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Form1.'Primary Email_DataCard1'.DataCardValue4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form2.'Primary Email_DataCard1'.DataCardValue5"
+                "type": "Screen1.Form1.'Primary Email_DataCard1'.DataCardValue4"
               }
             }
           ],
@@ -223,19 +193,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form2.'Secondary Email_DataCard1'.DataCardValue6.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Form1.'Description of Organization_DataCard1'.DataCardValue3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form2.'Secondary Email_DataCard1'.DataCardValue6.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Form1.'Description of Organization_DataCard1'.DataCardValue3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form2.'Secondary Email_DataCard1'.DataCardValue6"
+                "type": "Screen1.Form1.'Description of Organization_DataCard1'.DataCardValue3"
               }
             }
           ],
@@ -253,19 +223,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form2.'Phone Number_DataCard1'.DataCardValue7.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Form1.'Name of Organization_DataCard1'.DataCardValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form2.'Phone Number_DataCard1'.DataCardValue7.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Form1.'Name of Organization_DataCard1'.DataCardValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form2.'Phone Number_DataCard1'.DataCardValue7"
+                "type": "Screen1.Form1.'Name of Organization_DataCard1'.DataCardValue2"
               }
             }
           ],
@@ -283,49 +253,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Form2.Address_DataCard1.DataCardValue8.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Form1.Name_DataCard1.DataCardValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Form2.Address_DataCard1.DataCardValue8.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Form1.Name_DataCard1.DataCardValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Form2.Address_DataCard1.DataCardValue8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Form2.'Age of Volunteers Needed_DataCard1'.DataCardValue9.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Form2.'Age of Volunteers Needed_DataCard1'.DataCardValue9.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen1",
-                "type": "Screen1.Form2.'Age of Volunteers Needed_DataCard1'.DataCardValue9"
+                "type": "Screen1.Form1.Name_DataCard1.DataCardValue1"
               }
             }
           ],
@@ -366,6 +306,66 @@
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.Gallery3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.Gallery3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen1",
+                "type": "Screen1.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1.Gallery3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1.Gallery3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen1",
+                "type": "Screen1.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
         }
       ],
       "tool": {
