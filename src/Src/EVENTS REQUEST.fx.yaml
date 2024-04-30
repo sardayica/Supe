@@ -707,9 +707,10 @@
         Y: =690
         ZIndex: =5
 
-    Button2 As button:
+    Button1_1 As button:
+        DisplayMode: =If(Form1.Unsaved, DisplayMode.Edit, DisplayMode.Disabled)
         Text: ="Save Changes"
-        X: =971
+        X: =966
         Y: =690
         ZIndex: =6
 
