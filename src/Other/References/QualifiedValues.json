@@ -2,6 +2,20 @@
   "QualifiedValues": [
     {
       "Kind": "default.cds_cr864_databaseforprofiles_forms",
+      "Namespace": "Database for Profiles (Formularer)",
+      "Values": {
+        "Information": "e1593bcd-be29-4741-b63e-a35ceac83411"
+      }
+    },
+    {
+      "Kind": "default.cds_cr864_databaseforforms_forms",
+      "Namespace": "Database for Forms (Formularer)",
+      "Values": {
+        "Information": "4527693a-7fff-42f4-8208-cbfeff607888"
+      }
+    },
+    {
+      "Kind": "default.cds_cr864_databaseforprofiles_forms",
       "Namespace": "Database for Profiles (Forms)",
       "Values": {
         "Information": "e1593bcd-be29-4741-b63e-a35ceac83411"
@@ -12,13 +26,6 @@
       "Namespace": "Database for Forms (Forms)",
       "Values": {
         "Information": "4527693a-7fff-42f4-8208-cbfeff607888"
-      }
-    },
-    {
-      "Kind": "default.cds_cr864_databaseforprofiles_forms",
-      "Namespace": "Database for Profiles (Formularer)",
-      "Values": {
-        "Information": "e1593bcd-be29-4741-b63e-a35ceac83411"
       }
     }
   ]
