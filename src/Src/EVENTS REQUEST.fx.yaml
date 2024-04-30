@@ -709,6 +709,7 @@
 
     Button1_1 As button:
         DisplayMode: =If(Form1.Unsaved, DisplayMode.Edit, DisplayMode.Disabled)
+        OnSelect: =SubmitForm(Form1)
         Text: ="Save Changes"
         X: =966
         Y: =690
