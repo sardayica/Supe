@@ -1,7 +1,9 @@
 "'Profile Info' As screen":
+    Fill: =RGBA(184, 0, 0, 1)
 
     "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
+        Fill: =RGBA(255, 255, 255, 1)
         Height: =621
         Items: ='Database for Forms 2'
         Layout: =Layout.Vertical
@@ -9,8 +11,8 @@
         TemplatePadding: =0
         TemplateSize: =104
         Width: =366
-        X: =40
-        Y: =40
+        X: =20
+        Y: =126
         ZIndex: =1
 
         Image5 As image:
@@ -34,7 +36,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Organisation '
+            Text: =ThisItem.Name
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 173
             X: =103
@@ -88,11 +90,12 @@
 
     Form1 As form:
         DataSource: ='Database for Forms 2'
-        Height: =702
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =623
         Item: =Gallery3.Selected
-        Width: =945
-        X: =408
-        Y: =22
+        Width: =937
+        X: =409
+        Y: =125
         ZIndex: =2
 
         Name_DataCard1 As typedDataCard.textualEditCard:
@@ -106,7 +109,7 @@
             MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, cr864_name)
             Required: =true
             Update: =DataCardValue1.Text
-            Width: =315
+            Width: =312
             X: =0
             Y: =0
             ZIndex: =3
@@ -174,7 +177,7 @@
             MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, cr864_email)
             Required: =true
             Update: =DataCardValue2.Text
-            Width: =315
+            Width: =312
             X: =1
             Y: =0
             ZIndex: =3
@@ -241,7 +244,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue3.Text)
-            Width: =315
+            Width: =312
             X: =2
             Y: =0
             ZIndex: =3
@@ -309,7 +312,7 @@
             MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, cr864_organisation)
             Required: =true
             Update: =DataCardValue4.Text
-            Width: =315
+            Width: =312
             X: =0
             Y: =1
             ZIndex: =3
@@ -377,7 +380,7 @@
             MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, cr864_numberofvolunteers)
             Required: =false
             Update: =DataCardValue5.Text
-            Width: =315
+            Width: =312
             X: =1
             Y: =1
             ZIndex: =3
@@ -444,7 +447,7 @@
             Height: =50
             Required: =false
             Update: =If(Not IsBlank(DateValue1.SelectedDate), DateValue1.SelectedDate + Time(Value(HourValue1.Selected.Value), Value(MinuteValue1.Selected.Value), 0))
-            Width: =315
+            Width: =312
             X: =2
             Y: =1
             ZIndex: =3
@@ -558,7 +561,7 @@
             MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, cr864_description)
             Required: =true
             Update: =DataCardValue6.Text
-            Width: =315
+            Width: =312
             X: =0
             Y: =2
             ZIndex: =3
@@ -625,7 +628,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue7.Text
-            Width: =315
+            Width: =312
             X: =1
             Y: =2
             ZIndex: =3
@@ -680,4 +683,13 @@
                 Wrap: =false
                 Y: =DataCardKey8.Y
                 ZIndex: =4
+
+    Label1 As label:
+        Height: =73
+        Size: =30
+        Text: ="Red Cross"
+        Width: =253
+        X: =20
+        Y: =28
+        ZIndex: =3
 
