@@ -1,0 +1,103 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr864_databaseforforms2s",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr864_databaseforforms2",
+    "Name": "Database for Forms 2",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr864_databaseforforms2_AsyncOperations": "System Jobs",
+      "cr864_databaseforforms2_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr864_databaseforforms2_DuplicateBaseRecord": "Duplicate Records (cr864_databaseforforms2_DuplicateBaseRecord)",
+      "cr864_databaseforforms2_DuplicateMatchingRecord": "Duplicate Records (cr864_databaseforforms2_DuplicateMatchingRecord)",
+      "cr864_databaseforforms2_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr864_databaseforforms2_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr864_databaseforforms2_ProcessSession": "Process Sessions",
+      "cr864_databaseforforms2_SyncErrors": "Sync Errors",
+      "cr864_databaseforforms2id": "Database for Forms 2",
+      "cr864_dateofevent": "Date of Event",
+      "cr864_description": "Description",
+      "cr864_email": "Email",
+      "cr864_image": "Image",
+      "cr864_name": "Name",
+      "cr864_numberofvolunteers": "Number of volunteers",
+      "cr864_organisation": "Organisation ",
+      "cr864_phone": "Phone",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Database for Forms 2",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Database for Forms 2 (Visninger)",
+    "Name": "_cr864_databaseforforms2_views",
+    "RelatedEntityName": "Database for Forms 2",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5a67e023-36b4-41a7-849b-a56c43f785d3": "Active Database for Forms 2",
+      "704e73cd-5a36-414f-b81b-048302271c51": "Database for Forms 2 Advanced Find View",
+      "a7ba32ea-da49-4fab-b6b1-27bd5e6a7aaf": "Database for Forms 2 Associated View",
+      "d66996f6-379a-4074-b5ac-d0550cde2314": "Inactive Database for Forms 2",
+      "fc9b18b3-14cb-4944-a1a6-3b15be77b9eb": "Database for Forms 2 Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (Database for Forms 2)",
+    "Name": "cr864_databaseforforms2_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Database for Forms 2"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Database for Forms 2",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Database for Forms 2)",
+    "Name": "cr864_databaseforforms2_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Database for Forms 2"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Database for Forms 2",
+    "Type": "OptionSetInfo"
+  }
+]

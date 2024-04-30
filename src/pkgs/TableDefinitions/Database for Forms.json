@@ -3,10 +3,6 @@
   "EntityName": "Database for Forms",
   "environmentVariableName": "",
   "InstanceUrl": "https://orgeb967466.crm4.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "cr864_databaseforformses",
-    "logicalName": "cr864_databaseforforms"
-  },
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://orgeb967466.crm4.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('cr864_databaseforforms')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",
