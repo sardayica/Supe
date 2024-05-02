@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.Name_DataCard1.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.Name_DataCard1.EventPageName.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.Name_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.Name_DataCard1.EventPageName.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EVENTS REQUEST",
-                "type": "'EVENTS REQUEST'.Form1.Name_DataCard1.DataCardValue1"
+                "type": "'EVENTS REQUEST'.Form1.Name_DataCard1.EventPageName"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.Email_DataCard2.DataCardValue2.AccessibleLabel"
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.Email_DataCard2.EventPageEmail.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.Email_DataCard2.DataCardValue2.AccessibleLabel",
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.Email_DataCard2.EventPageEmail.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EVENTS REQUEST",
-                "type": "'EVENTS REQUEST'.Form1.Email_DataCard2.DataCardValue2"
+                "type": "'EVENTS REQUEST'.Form1.Email_DataCard2.EventPageEmail"
               }
             }
           ],
@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Date of Event_DataCard1'.DateValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Date of Event_DataCard1'.EnventPageDate.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Date of Event_DataCard1'.DateValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Date of Event_DataCard1'.EnventPageDate.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EVENTS REQUEST",
-                "type": "'EVENTS REQUEST'.Form1.'Date of Event_DataCard1'.DateValue1"
+                "type": "'EVENTS REQUEST'.Form1.'Date of Event_DataCard1'.EnventPageDate"
               }
             }
           ],
