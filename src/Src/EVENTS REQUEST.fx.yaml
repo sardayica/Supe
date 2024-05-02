@@ -99,6 +99,7 @@
         ZIndex: =2
 
         Name_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_name"
             Default: =ThisItem.Name
@@ -116,6 +117,7 @@
 
             DataCardKey1 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(255, 255, 255, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -167,6 +169,7 @@
                 ZIndex: =4
 
         Email_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_email"
             Default: =ThisItem.Email
@@ -235,6 +238,7 @@
                 ZIndex: =4
 
         Phone_DataCard1 As typedDataCard.numberEditCard:
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_phone"
             Default: =ThisItem.Phone
@@ -302,6 +306,7 @@
                 ZIndex: =4
 
         "'Organisation _DataCard1' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_organisation"
             Default: =ThisItem.'Organisation '
@@ -370,6 +375,7 @@
                 ZIndex: =4
 
         "'Number of volunteers_DataCard1' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_numberofvolunteers"
             Default: =ThisItem.'Number of volunteers'
@@ -438,6 +444,7 @@
                 ZIndex: =4
 
         "'Date of Event_DataCard1' As typedDataCard.dateTimeEditCard":
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_dateofevent"
             Default: =ThisItem.'Date of Event'
@@ -551,6 +558,7 @@
                 ZIndex: =7
 
         Description_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_description"
             Default: =ThisItem.Description
@@ -619,6 +627,7 @@
                 ZIndex: =4
 
         Image_DataCard1 As typedDataCard.urlEditCard:
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_image"
             Default: =ThisItem.Image
@@ -702,6 +711,7 @@
         ZIndex: =4
 
     Button1 As button:
+        Fill: =RGBA(184, 0, 0, 1)
         Text: ="Accept Event"
         X: =1164
         Y: =690
@@ -709,6 +719,7 @@
 
     Button1_1 As button:
         DisplayMode: =If(Form1.Unsaved, DisplayMode.Edit, DisplayMode.Disabled)
+        Fill: =RGBA(184, 0, 0, 1)
         OnSelect: =SubmitForm(Form1)
         Text: ="Save Changes"
         X: =966
