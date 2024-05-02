@@ -14,6 +14,88 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Button1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Button1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 203,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text; \"Velkommen\"; EventPageName.Text; EnventPageDate.SelectedDate)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "EVENTS REQUEST",
+                "type": "'EVENTS REQUEST'.Button1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "4",
+              "5"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArity",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Button3_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Button3_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 169,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(Email.Text; \"Velkommen\"; \"Mikkel\"; \"24-05-2024\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Button3_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "4",
+              "5"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArity",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'EVENTS REQUEST'.Form1.Name_DataCard1.EventPageName.AccessibleLabel"
                 }
               ],
@@ -37,7 +119,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -67,7 +149,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -97,7 +179,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -127,26 +209,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Number of volunteers_DataCard1'.DataCardValue5.AccessibleLabel"
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Number of volunteers_DataCard1'.EventPageVolunteers.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Number of volunteers_DataCard1'.DataCardValue5.AccessibleLabel",
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Number of volunteers_DataCard1'.EventPageVolunteers.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EVENTS REQUEST",
-                "type": "'EVENTS REQUEST'.Form1.'Number of volunteers_DataCard1'.DataCardValue5"
+                "type": "'EVENTS REQUEST'.Form1.'Number of volunteers_DataCard1'.EventPageVolunteers"
               }
             }
           ],
@@ -157,7 +239,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -187,7 +269,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -217,7 +299,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -247,7 +329,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -277,7 +359,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -307,7 +389,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -337,7 +419,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -367,7 +449,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -396,7 +478,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -426,7 +508,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -456,7 +538,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -486,7 +568,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -516,7 +598,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
+          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -524,6 +606,20 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrBadArity",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid number of arguments: received {0}, expected {1}."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {

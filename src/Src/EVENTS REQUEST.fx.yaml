@@ -385,7 +385,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, cr864_numberofvolunteers)
             Required: =false
-            Update: =DataCardValue5.Text
+            Update: =EventPageVolunteers.Text
             Width: =312
             X: =1
             Y: =1
@@ -401,7 +401,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue5 As text:
+            EventPageVolunteers As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -430,7 +430,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue5.Y + DataCardValue5.Height
+                Y: =EventPageVolunteers.Y + EventPageVolunteers.Height
                 ZIndex: =3
 
             StarVisible5 As label:
@@ -727,4 +727,12 @@
         X: =966
         Y: =690
         ZIndex: =6
+
+    Button1_2 As button:
+        Fill: =RGBA(184, 0, 0, 1)
+        OnSelect: =IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event have been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text ;)
+        Text: ="Accept Event"
+        X: =1089
+        Y: =552
+        ZIndex: =7
 
