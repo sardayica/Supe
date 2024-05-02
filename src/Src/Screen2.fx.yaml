@@ -17,8 +17,9 @@ Screen2 As screen:
         ZIndex: =2
 
     Email As text:
-        Default: ="Email"
+        Default: =""
         Height: =56
+        HintText: ="Email"
         Width: =600
         X: =48
         Y: =134
@@ -31,8 +32,9 @@ Screen2 As screen:
         ZIndex: =4
 
     Subject As text:
-        Default: ="Subject"
+        Default: =""
         Height: =56
+        HintText: ="Subject"
         Width: =600
         X: =48
         Y: =286
@@ -47,8 +49,9 @@ Screen2 As screen:
         ZIndex: =6
 
     Description As text:
-        Default: ="Description "
+        Default: =""
         Height: =226
+        HintText: ="Description"
         Width: =600
         X: =48
         Y: =440
