@@ -58,3 +58,11 @@ Screen2 As screen:
         Y: =440
         ZIndex: =7
 
+    Button3_1 As button:
+        OnSelect: |
+            =IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(Email.Text, "Velkommen", "Mikkel", "24-05-2024");
+        Text: ="Knap"
+        X: =939
+        Y: =459
+        ZIndex: =8
+

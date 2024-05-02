@@ -28,12 +28,12 @@
       "KlikpåenknapiPowerAppsforatsendeenmail"
     ],
     "dependencies": {
-      "shared_office365": "ed0d2806-95da-4b0a-89a0-f14a898eb8cc"
+      "shared_office365": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
     },
     "dependents": [],
     "id": "47bb933a-955f-4353-a70f-b5ae85b31a07"
   },
-  "ed0d2806-95da-4b0a-89a0-f14a898eb8cc": {
+  "a41420d0-2d09-45c6-8ccf-9e5e4b563dab": {
     "connectionRef": {
       "displayName": "Office 365 Outlook",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365/icon.png",
@@ -43,8 +43,49 @@
     "dataSources": [],
     "dependencies": {},
     "dependents": [
+      "a4b8e265-892b-4a4d-bd26-3dfdf5a91b81",
       "47bb933a-955f-4353-a70f-b5ae85b31a07"
     ],
-    "id": "ed0d2806-95da-4b0a-89a0-f14a898eb8cc"
+    "id": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+  },
+  "a4b8e265-892b-4a4d-bd26-3dfdf5a91b81": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3699/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "a41420d0-2d09-45c6-8ccf-9e5e4b563dab": {
+          "value": "shared_office365"
+        },
+        "workflowDisplayName": {
+          "value": "I want to create a Power Apps function that takes in data from my Form and sends an email using outlook with all the data in the body of the email"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "885a439c-1b1a-4489-bd5a-0672b4ef52c8"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+        },
+        "workflowDisplayName": {
+          "value": "I want to create a Power Apps function that takes in data from my Form and sends an email using outlook with all the data in the body of the email"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "885a439c-1b1a-4489-bd5a-0672b4ef52c8"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail"
+    ],
+    "dependencies": {
+      "shared_office365": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+    },
+    "dependents": [],
+    "id": "a4b8e265-892b-4a4d-bd26-3dfdf5a91b81"
   }
 }
