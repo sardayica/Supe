@@ -710,15 +710,6 @@
         Y: =14
         ZIndex: =4
 
-    Button1 As button:
-        Fill: =RGBA(184, 0, 0, 1)
-        OnSelect: |
-            =IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Velkommen", EventPageName.Text, EnventPageDate.SelectedDate);
-        Text: ="Accept Event"
-        X: =1164
-        Y: =690
-        ZIndex: =5
-
     Button1_1 As button:
         DisplayMode: =If(Form1.Unsaved, DisplayMode.Edit, DisplayMode.Disabled)
         Fill: =RGBA(184, 0, 0, 1)
@@ -732,7 +723,7 @@
         Fill: =RGBA(184, 0, 0, 1)
         OnSelect: =IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event have been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text ;)
         Text: ="Accept Event"
-        X: =1089
-        Y: =552
+        X: =1151
+        Y: =690
         ZIndex: =7
 

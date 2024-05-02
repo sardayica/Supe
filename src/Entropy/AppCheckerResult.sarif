@@ -14,47 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Button1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Button1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 203,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text; \"Velkommen\"; EventPageName.Text; EnventPageDate.SelectedDate)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "EVENTS REQUEST",
-                "type": "'EVENTS REQUEST'.Button1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "4",
-              "5"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArity",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Screen2.Button3_1.OnSelect"
                 }
               ],
