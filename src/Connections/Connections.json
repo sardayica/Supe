@@ -1,4 +1,18 @@
 {
+  "29753e69-f3d4-4d5c-be4e-85659d2beabc": {
+    "connectionRef": {
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "47bb933a-955f-4353-a70f-b5ae85b31a07"
+    ],
+    "id": "29753e69-f3d4-4d5c-be4e-85659d2beabc"
+  },
   "47bb933a-955f-4353-a70f-b5ae85b31a07": {
     "connectionRef": {
       "displayName": "Logic flows",
@@ -28,23 +42,9 @@
       "KlikpåenknapiPowerAppsforatsendeenmail"
     ],
     "dependencies": {
-      "shared_office365": "4e01a46b-d728-4d6a-ad29-b48d05f250d7"
+      "shared_office365": "29753e69-f3d4-4d5c-be4e-85659d2beabc"
     },
     "dependents": [],
     "id": "47bb933a-955f-4353-a70f-b5ae85b31a07"
-  },
-  "4e01a46b-d728-4d6a-ad29-b48d05f250d7": {
-    "connectionRef": {
-      "displayName": "Office 365 Outlook",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_office365"
-    },
-    "datasets": {},
-    "dataSources": [],
-    "dependencies": {},
-    "dependents": [
-      "47bb933a-955f-4353-a70f-b5ae85b31a07"
-    ],
-    "id": "4e01a46b-d728-4d6a-ad29-b48d05f250d7"
   }
 }
