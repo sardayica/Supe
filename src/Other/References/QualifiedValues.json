@@ -15,6 +15,13 @@
       }
     },
     {
+      "Kind": "default.cds_cr864_databaseforforms2_forms",
+      "Namespace": "Database for Forms 2 (Formularer)",
+      "Values": {
+        "Information": "983e2021-15ce-411f-98d9-d5a88b2512a3"
+      }
+    },
+    {
       "Kind": "default.cds_cr864_databaseforprofiles_forms",
       "Namespace": "Database for Profiles (Forms)",
       "Values": {
@@ -26,13 +33,6 @@
       "Namespace": "Database for Forms (Forms)",
       "Values": {
         "Information": "4527693a-7fff-42f4-8208-cbfeff607888"
-      }
-    },
-    {
-      "Kind": "default.cds_cr864_databaseforforms2_forms",
-      "Namespace": "Database for Forms 2 (Formularer)",
-      "Values": {
-        "Information": "983e2021-15ce-411f-98d9-d5a88b2512a3"
       }
     }
   ]

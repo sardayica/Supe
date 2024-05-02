@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr864_databaseforforms2",
+    "MaxGetRowsCount": 500,
     "Name": "Database for Forms 2",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
