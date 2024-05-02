@@ -3,6 +3,7 @@ Screen2 As screen:
     Button3 As button:
         OnSelect: |
             =KlikpåenknapiPowerAppsforatsendeenmail.Run(Email.Text, Subject.Text, Description.Text);
+            Reset(Email); Reset(Subject); Reset(Description);
         Text: ="Knap"
         X: =1124
         Y: =666
