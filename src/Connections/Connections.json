@@ -5,6 +5,9 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3699/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "a41420d0-2d09-45c6-8ccf-9e5e4b563dab": {
+          "value": "shared_office365"
+        },
         "workflowDisplayName": {
           "value": "Klik på en knap i Power Apps for at sende en mail"
         },
@@ -14,6 +17,9 @@
         }
       },
       "parameterHintsV2": {
+        "shared_office365": {
+          "value": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+        },
         "workflowDisplayName": {
           "value": "Klik på en knap i Power Apps for at sende en mail"
         },
@@ -43,8 +49,8 @@
     "dataSources": [],
     "dependencies": {},
     "dependents": [
-      "a4b8e265-892b-4a4d-bd26-3dfdf5a91b81",
-      "47bb933a-955f-4353-a70f-b5ae85b31a07"
+      "47bb933a-955f-4353-a70f-b5ae85b31a07",
+      "a4b8e265-892b-4a4d-bd26-3dfdf5a91b81"
     ],
     "id": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
   },
@@ -54,9 +60,6 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3699/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
-        "a41420d0-2d09-45c6-8ccf-9e5e4b563dab": {
-          "value": "shared_office365"
-        },
         "workflowDisplayName": {
           "value": "I want to create a Power Apps function that takes in data from my Form and sends an email using outlook with all the data in the body of the email"
         },
@@ -66,9 +69,6 @@
         }
       },
       "parameterHintsV2": {
-        "shared_office365": {
-          "value": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
-        },
         "workflowDisplayName": {
           "value": "I want to create a Power Apps function that takes in data from my Form and sends an email using outlook with all the data in the body of the email"
         },
