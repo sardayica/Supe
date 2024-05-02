@@ -28,12 +28,12 @@
       "KlikpåenknapiPowerAppsforatsendeenmail"
     ],
     "dependencies": {
-      "shared_office365": "48d82295-7e81-4f06-ac42-0b96936152f1"
+      "shared_office365": "4e01a46b-d728-4d6a-ad29-b48d05f250d7"
     },
     "dependents": [],
     "id": "47bb933a-955f-4353-a70f-b5ae85b31a07"
   },
-  "48d82295-7e81-4f06-ac42-0b96936152f1": {
+  "4e01a46b-d728-4d6a-ad29-b48d05f250d7": {
     "connectionRef": {
       "displayName": "Office 365 Outlook",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365/icon.png",
@@ -45,6 +45,6 @@
     "dependents": [
       "47bb933a-955f-4353-a70f-b5ae85b31a07"
     ],
-    "id": "48d82295-7e81-4f06-ac42-0b96936152f1"
+    "id": "4e01a46b-d728-4d6a-ad29-b48d05f250d7"
   }
 }
