@@ -712,6 +712,8 @@
 
     Button1 As button:
         Fill: =RGBA(184, 0, 0, 1)
+        OnSelect: |
+            =KlikpåenknapiPowerAppsforatsendeenmail.Run(DataCardValue2.Text, Subject.Text, Description.Text);
         Text: ="Accept Event"
         X: =1164
         Y: =690
