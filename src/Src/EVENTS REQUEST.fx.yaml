@@ -786,7 +786,7 @@
 
     Button1_2 As button:
         Fill: =RGBA(184, 0, 0, 1)
-        OnSelect: =IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event have been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text );
+        OnSelect: =SubmitForm(Form1);IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event have been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text );
         Text: ="Accept Event"
         X: =1151
         Y: =690
