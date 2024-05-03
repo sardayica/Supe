@@ -1,4 +1,18 @@
 {
+  "1a9825cf-780b-484c-a728-2ea5600c1ff3": {
+    "connectionRef": {
+      "displayName": "Office 365-brugere",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365-brugere"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1a9825cf-780b-484c-a728-2ea5600c1ff3"
+  },
   "47bb933a-955f-4353-a70f-b5ae85b31a07": {
     "connectionRef": {
       "displayName": "Logic flows",
@@ -46,7 +60,9 @@
       "id": "/providers/microsoft.powerapps/apis/shared_office365"
     },
     "datasets": {},
-    "dataSources": [],
+    "dataSources": [
+      "Office365Outlook"
+    ],
     "dependencies": {},
     "dependents": [
       "47bb933a-955f-4353-a70f-b5ae85b31a07",
@@ -60,6 +76,9 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3699/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "a41420d0-2d09-45c6-8ccf-9e5e4b563dab": {
+          "value": "shared_office365"
+        },
         "workflowDisplayName": {
           "value": "I want to create a Power Apps function that takes in data from my Form and sends an email using outlook with all the data in the body of the email"
         },
@@ -69,6 +88,9 @@
         }
       },
       "parameterHintsV2": {
+        "shared_office365": {
+          "value": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+        },
         "workflowDisplayName": {
           "value": "I want to create a Power Apps function that takes in data from my Form and sends an email using outlook with all the data in the body of the email"
         },

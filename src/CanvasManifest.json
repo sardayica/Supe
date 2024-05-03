@@ -134,6 +134,7 @@
   "ScreenOrder": [
     "EVENTS REQUEST",
     "EVENTS ACCEPTED",
-    "Screen2"
+    "Screen2",
+    "Screen3"
   ]
 }
