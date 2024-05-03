@@ -1,11 +1,11 @@
-"'EVENTS REQUEST_1' As screen":
+"'EVENTS ACCEPTED' As screen":
     Fill: =RGBA(184, 0, 0, 1)
 
     "Gallery3_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
         Height: =621
-        Items: ='Database for Forms 2'
+        Items: =Filter('Database for Forms 2', 'Database for Forms 2 (Visninger)'.'accepted events')
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -773,21 +773,4 @@
         X: =228
         Y: =14
         ZIndex: =4
-
-    Button1_3 As button:
-        DisplayMode: =If(Form1_1.Unsaved, DisplayMode.Edit, DisplayMode.Disabled)
-        Fill: =RGBA(184, 0, 0, 1)
-        OnSelect: =SubmitForm(Form1_1)
-        Text: ="Save Changes"
-        X: =966
-        Y: =690
-        ZIndex: =6
-
-    Button1_4 As button:
-        Fill: =RGBA(184, 0, 0, 1)
-        OnSelect: =IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail_1.Text, "Event have been accepted", EventPageName_1.Text, EnventPageDate_1.SelectedDate, EventPageVolunteers_1.Text );
-        Text: ="Accept Event"
-        X: =1151
-        Y: =690
-        ZIndex: =7
 

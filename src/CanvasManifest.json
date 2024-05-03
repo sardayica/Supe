@@ -133,7 +133,7 @@
   },
   "ScreenOrder": [
     "EVENTS REQUEST",
-    "EVENTS REQUEST_1",
+    "EVENTS ACCEPTED",
     "Screen2"
   ]
 }
