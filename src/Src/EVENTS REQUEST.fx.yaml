@@ -821,9 +821,14 @@
         OnSelect: |-
             =SubmitForm(Form1);
             
-            If(Text(AcceptanceStatusValue.Selected.Value) = "accepted", 
-            IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text),
-            IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has not been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text));
+            If(
+                Text(AcceptanceStatusValue.Selected.Value) = "accepted", 
+            
+                IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text),
+            
+            
+                IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has not been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text)
+            );
         PaddingLeft: =15
         Text: ="Test"
         Width: =228
