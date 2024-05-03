@@ -10,7 +10,7 @@
     "Name": "Database for Forms 2",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
-      "cr864_acceptancestatus": "acceptance status",
+      "cr864_acceptancestatus": "acceptance_status",
       "cr864_databaseforforms2_AsyncOperations": "System Jobs",
       "cr864_databaseforforms2_BulkDeleteFailures": "Bulk Delete Failures",
       "cr864_databaseforforms2_connections1": "Connections (cr864_databaseforforms2_connections1)",
@@ -64,11 +64,12 @@
       "a7ba32ea-da49-4fab-b6b1-27bd5e6a7aaf": "Database for Forms 2 Associated View",
       "c9a89ae8-7808-ef11-9f89-002248a0614d": "accepted events",
       "d66996f6-379a-4074-b5ac-d0550cde2314": "Inactive Database for Forms 2",
+      "d6b13c3d-2609-ef11-9f89-002248a0614d": "Not Accepted events",
       "fc9b18b3-14cb-4944-a1a6-3b15be77b9eb": "Database for Forms 2 Lookup View"
     }
   },
   {
-    "DisplayName": "acceptance status (Database for Forms 2)",
+    "DisplayName": "acceptance_status (Database for Forms 2)",
     "Name": "cr864_databaseforforms2_cr864_acceptancestatus",
     "OptionSetInfoNameMapping": {
       "0": "not accepted",

@@ -13,6 +13,40 @@
     "dependents": [],
     "id": "1a9825cf-780b-484c-a728-2ea5600c1ff3"
   },
+  "1ef6af1a-bccd-4d15-8d80-9c25227c82e3": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3699/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowDisplayName": {
+          "value": "NotAcceptedEvent"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "1cceea75-a3d4-4f99-976a-dbf6ccd7ca68"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowDisplayName": {
+          "value": "NotAcceptedEvent"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "1cceea75-a3d4-4f99-976a-dbf6ccd7ca68"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "NotAcceptedEvent"
+    ],
+    "dependencies": {
+      "shared_office365": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+    },
+    "dependents": [],
+    "id": "1ef6af1a-bccd-4d15-8d80-9c25227c82e3"
+  },
   "47bb933a-955f-4353-a70f-b5ae85b31a07": {
     "connectionRef": {
       "displayName": "Logic flows",
@@ -66,7 +100,8 @@
     "dependencies": {},
     "dependents": [
       "47bb933a-955f-4353-a70f-b5ae85b31a07",
-      "a4b8e265-892b-4a4d-bd26-3dfdf5a91b81"
+      "a4b8e265-892b-4a4d-bd26-3dfdf5a91b81",
+      "1ef6af1a-bccd-4d15-8d80-9c25227c82e3"
     ],
     "id": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
   },

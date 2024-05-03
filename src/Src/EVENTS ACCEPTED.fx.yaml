@@ -101,9 +101,9 @@
         "'acceptance status_1' As typedDataCard.comboBoxOptionSetSingleEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_acceptancestatus"
-            Default: =ThisItem.'acceptance status'
+            Default: =ThisItem.acceptance_status
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,cr864_acceptancestatus)
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,acceptance_status)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -126,10 +126,13 @@
             DataCardValue1_1 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultSelectedItems: =[Parent.Default]
+                DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 IsSearchable: =false
-                Items: =Choices('acceptance status (Database for Forms 2)')
+                Items: =Choices('acceptance_status (Database for Forms 2)')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SearchFields: =["Value"]
+                SearchItems: =Choices('acceptance_status (Database for Forms 2)',DataCardValue1_1.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60

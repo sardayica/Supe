@@ -16,7 +16,7 @@
         ZIndex: =1
 
         Rectangle4 As rectangle:
-            Fill: =If(Text(ThisItem.'acceptance status') = "not accepted", RGBA(255, 255, 255, 1), RGBA(1, 180, 50, 1))
+            Fill: =If(Text(ThisItem.acceptance_status) = "not accepted", RGBA(255, 255, 255, 1), RGBA(1, 180, 50, 1))
             Height: =102
             OnSelect: =Select(Parent)
             Width: =366
@@ -89,7 +89,7 @@
             ZIndex: =6
 
         Rectangle7 As rectangle:
-            Fill: =If(Text(ThisItem.'acceptance status') = "not accepted", RGBA(1, 1, 1, 1), RGBA(255, 255, 255, 1))
+            Fill: =If(Text(ThisItem.acceptance_status) = "not accepted", RGBA(1, 1, 1, 1), RGBA(255, 255, 255, 1))
             Height: =Parent.TemplateHeight - Separator8.Height
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
@@ -109,9 +109,9 @@
         "'acceptance status' As typedDataCard.comboBoxOptionSetSingleEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_acceptancestatus"
-            Default: =ThisItem.'acceptance status'
+            Default: =ThisItem.acceptance_status
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,cr864_acceptancestatus)
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,acceptance_status)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -135,10 +135,13 @@
             AcceptanceStatusValue As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultSelectedItems: =[Parent.Default]
+                DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 IsSearchable: =false
-                Items: =Choices('acceptance status (Database for Forms 2)')
+                Items: =Choices('acceptance_status (Database for Forms 2)')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SearchFields: =["Value"]
+                SearchItems: =Choices('acceptance_status (Database for Forms 2)',AcceptanceStatusValue.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -835,4 +838,25 @@
         X: =521
         Y: =690
         ZIndex: =9
+
+    Button1_4 As button:
+        Align: =Align.Left
+        Fill: =RGBA(184, 0, 0, 1)
+        OnSelect: |-
+            =SubmitForm(Form1);
+            
+            If(
+                Text(AcceptanceStatusValue.Selected.Value) = "accepted", 
+            
+                IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text),
+            
+            
+                NotAcceptedEvent.Run(EventPageEmail.Text, "Event has not been accepted", EventPageName.Text, "Event Name", EnventPageDate.SelectedDate, EventPageVolunteers.Text , 
+            );
+        PaddingLeft: =15
+        Text: ="Test2"
+        Width: =228
+        X: =521
+        Y: =538
+        ZIndex: =10
 
