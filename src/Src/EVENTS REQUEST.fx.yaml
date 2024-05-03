@@ -870,8 +870,8 @@
             If(
                 Text(AcceptanceStatusValue.Selected.Value) = "accepted", 
             
-                IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has been accepted", EventPageNam.DisplayMode, EnventPageDate.SelectedDate, EventPageVolunteers.Text, EventPageEventName.Text, "Adress"),
-            
+                IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has been accepted", EventPageNam.DisplayMode, EventPageEventName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text, "Adress"),
+                
             
                 'PowerAppV2->Sendenmail(V2)'.Run(EventPageEmail.Text, "Event has not been accepted", EventPageEventName.Text, "Event name", EnventPageDate.SelectedDate, EventPageVolunteers.Text)
                 
