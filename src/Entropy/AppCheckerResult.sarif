@@ -444,19 +444,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.Description.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.Email.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.Description.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.Email.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.Description"
+                "type": "Screen2.Email"
               }
             }
           ],
@@ -504,19 +504,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.Email.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.Description.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.Email.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.Description.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.Email"
+                "type": "Screen2.Description"
               }
             }
           ],

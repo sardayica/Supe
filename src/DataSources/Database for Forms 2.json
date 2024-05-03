@@ -10,8 +10,11 @@
     "Name": "Database for Forms 2",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
+      "cr864_acceptancestatus": "acceptance status",
       "cr864_databaseforforms2_AsyncOperations": "System Jobs",
       "cr864_databaseforforms2_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr864_databaseforforms2_connections1": "Connections (cr864_databaseforforms2_connections1)",
+      "cr864_databaseforforms2_connections2": "Connections (cr864_databaseforforms2_connections2)",
       "cr864_databaseforforms2_DuplicateBaseRecord": "Duplicate Records (cr864_databaseforforms2_DuplicateBaseRecord)",
       "cr864_databaseforforms2_DuplicateMatchingRecord": "Duplicate Records (cr864_databaseforforms2_DuplicateMatchingRecord)",
       "cr864_databaseforforms2_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
@@ -27,6 +30,7 @@
       "cr864_numberofvolunteers": "Number of volunteers",
       "cr864_organisation": "Organisation ",
       "cr864_phone": "Phone",
+      "cr864_PortalUser": "Portal User",
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
@@ -58,9 +62,30 @@
       "5a67e023-36b4-41a7-849b-a56c43f785d3": "Active Database for Forms 2",
       "704e73cd-5a36-414f-b81b-048302271c51": "Database for Forms 2 Advanced Find View",
       "a7ba32ea-da49-4fab-b6b1-27bd5e6a7aaf": "Database for Forms 2 Associated View",
+      "c9a89ae8-7808-ef11-9f89-002248a0614d": "accepted events",
       "d66996f6-379a-4074-b5ac-d0550cde2314": "Inactive Database for Forms 2",
       "fc9b18b3-14cb-4944-a1a6-3b15be77b9eb": "Database for Forms 2 Lookup View"
     }
+  },
+  {
+    "DisplayName": "acceptance status (Database for Forms 2)",
+    "Name": "cr864_databaseforforms2_cr864_acceptancestatus",
+    "OptionSetInfoNameMapping": {
+      "0": "not accepted",
+      "1": "accepted"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr864_acceptancestatus",
+        "OptionSetReferenceEntityName": "Database for Forms 2"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr864_acceptancestatus",
+    "RelatedEntityName": "Database for Forms 2",
+    "Type": "OptionSetInfo"
   },
   {
     "DisplayName": "Status (Database for Forms 2)",
