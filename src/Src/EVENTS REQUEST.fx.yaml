@@ -115,7 +115,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue1.Selected.Value
+            Update: =AcceptanceStatusValue.Selected.Value
             Visible: =true
             Width: =312
             X: =2
@@ -132,7 +132,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As combobox:
+            AcceptanceStatusValue As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultSelectedItems: =[Parent.Default]
                 DisplayMode: =Parent.DisplayMode
@@ -158,7 +158,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue1.Y + DataCardValue1.Height
+                Y: =AcceptanceStatusValue.Y + AcceptanceStatusValue.Height
                 ZIndex: =3
 
             StarVisible9 As label:
@@ -814,4 +814,20 @@
         X: =1252
         Y: =690
         ZIndex: =8
+
+    Button1_3 As button:
+        Align: =Align.Left
+        Fill: =RGBA(184, 0, 0, 1)
+        OnSelect: |-
+            =SubmitForm(Form1);
+            
+            If(Text(AcceptanceStatusValue.Selected.Value) = "accepted", 
+            IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text),
+            IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has not been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text));
+        PaddingLeft: =15
+        Text: ="Test"
+        Width: =228
+        X: =521
+        Y: =690
+        ZIndex: =9
 
