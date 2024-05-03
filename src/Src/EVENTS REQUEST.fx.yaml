@@ -851,7 +851,7 @@
                 IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text),
             
             
-                NotAcceptedEvent.Run(EventPageEmail.Text, "Event has not been accepted", EventPageName.Text, "Event Name", EnventPageDate.SelectedDate, EventPageVolunteers.Text , 
+                NotAcceptedEvent.Run(EventPageEmail.Text, "Event has not been accepted", EventPageName.Text, "Event Name", EnventPageDate.SelectedDate, EventPageVolunteers.Text ,
             );
         PaddingLeft: =15
         Text: ="Test2"
@@ -859,4 +859,25 @@
         X: =521
         Y: =538
         ZIndex: =10
+
+    Button1_5 As button:
+        Align: =Align.Left
+        Fill: =RGBA(184, 0, 0, 1)
+        OnSelect: |-
+            =SubmitForm(Form1);
+            
+            If(
+                Text(AcceptanceStatusValue.Selected.Value) = "accepted", 
+            
+                IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has been accepted", EventPageName.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text),
+            
+            
+               NotAcceptedEvent.Run(
+            );
+        PaddingLeft: =15
+        Text: ="Test3"
+        Width: =228
+        X: =780
+        Y: =555
+        ZIndex: =11
 

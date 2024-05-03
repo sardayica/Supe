@@ -65,7 +65,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 507,
+                  "charOffset": 506,
                   "snippet": {
                     "text": ")"
                   }
@@ -101,7 +101,7 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charOffset": 510,
+                  "charOffset": 509,
                   "snippet": {
                     "text": ""
                   }
@@ -141,7 +141,7 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charOffset": 510,
+                  "charOffset": 509,
                   "snippet": {
                     "text": ""
                   }
@@ -198,6 +198,87 @@
           "message": {
             "arguments": [
               "7",
+              "9"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArity",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Button1_5.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Button1_5.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charOffset": 367,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "EVENTS REQUEST",
+                "type": "'EVENTS REQUEST'.Button1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Eof",
+              "ParenClose"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Button1_5.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Button1_5.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 23,
+                  "charOffset": 342,
+                  "snippet": {
+                    "text": "NotAcceptedEvent.Run(\n)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "EVENTS REQUEST",
+                "type": "'EVENTS REQUEST'.Button1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "0",
               "9"
             ],
             "id": "issue"
