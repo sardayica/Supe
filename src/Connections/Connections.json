@@ -13,12 +13,49 @@
     "dependents": [],
     "id": "1a9825cf-780b-484c-a728-2ea5600c1ff3"
   },
+  "1ba3c2d6-6785-4237-885c-617f94e7b3f6": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3699/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowDisplayName": {
+          "value": "PowerAppV2 -> Send en mail (V2)"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "8028029b-221d-46c7-9427-998f13cafdb5"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowDisplayName": {
+          "value": "PowerAppV2 -> Send en mail (V2)"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "8028029b-221d-46c7-9427-998f13cafdb5"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerAppV2->Sendenmail(V2)"
+    ],
+    "dependencies": {
+      "shared_office365": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+    },
+    "dependents": [],
+    "id": "1ba3c2d6-6785-4237-885c-617f94e7b3f6"
+  },
   "1ef6af1a-bccd-4d15-8d80-9c25227c82e3": {
     "connectionRef": {
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3699/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "a41420d0-2d09-45c6-8ccf-9e5e4b563dab": {
+          "value": "shared_office365"
+        },
         "workflowDisplayName": {
           "value": "NotAcceptedEvent"
         },
@@ -28,6 +65,9 @@
         }
       },
       "parameterHintsV2": {
+        "shared_office365": {
+          "value": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+        },
         "workflowDisplayName": {
           "value": "NotAcceptedEvent"
         },
@@ -47,46 +87,6 @@
     "dependents": [],
     "id": "1ef6af1a-bccd-4d15-8d80-9c25227c82e3"
   },
-  "47bb933a-955f-4353-a70f-b5ae85b31a07": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3699/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "a41420d0-2d09-45c6-8ccf-9e5e4b563dab": {
-          "value": "shared_office365"
-        },
-        "workflowDisplayName": {
-          "value": "Klik på en knap i Power Apps for at sende en mail"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "305752f4-bf80-4f4f-90fa-546dc9e9a342"
-        }
-      },
-      "parameterHintsV2": {
-        "shared_office365": {
-          "value": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
-        },
-        "workflowDisplayName": {
-          "value": "Klik på en knap i Power Apps for at sende en mail"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "305752f4-bf80-4f4f-90fa-546dc9e9a342"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "KlikpåenknapiPowerAppsforatsendeenmail"
-    ],
-    "dependencies": {
-      "shared_office365": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
-    },
-    "dependents": [],
-    "id": "47bb933a-955f-4353-a70f-b5ae85b31a07"
-  },
   "a41420d0-2d09-45c6-8ccf-9e5e4b563dab": {
     "connectionRef": {
       "displayName": "Office 365 Outlook",
@@ -99,9 +99,10 @@
     ],
     "dependencies": {},
     "dependents": [
-      "47bb933a-955f-4353-a70f-b5ae85b31a07",
+      "1ef6af1a-bccd-4d15-8d80-9c25227c82e3",
       "a4b8e265-892b-4a4d-bd26-3dfdf5a91b81",
-      "1ef6af1a-bccd-4d15-8d80-9c25227c82e3"
+      "f64d4b34-44d4-4a2e-acba-1958c3f9ad69",
+      "1ba3c2d6-6785-4237-885c-617f94e7b3f6"
     ],
     "id": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
   },
@@ -144,5 +145,45 @@
     },
     "dependents": [],
     "id": "a4b8e265-892b-4a4d-bd26-3dfdf5a91b81"
+  },
+  "f64d4b34-44d4-4a2e-acba-1958c3f9ad69": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3699/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "a41420d0-2d09-45c6-8ccf-9e5e4b563dab": {
+          "value": "shared_office365"
+        },
+        "workflowDisplayName": {
+          "value": "Klik på en knap i Power Apps for at sende en mail"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "305752f4-bf80-4f4f-90fa-546dc9e9a342"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+        },
+        "workflowDisplayName": {
+          "value": "Klik på en knap i Power Apps for at sende en mail"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "305752f4-bf80-4f4f-90fa-546dc9e9a342"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "KlikpåenknapiPowerAppsforatsendeenmail"
+    ],
+    "dependencies": {
+      "shared_office365": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+    },
+    "dependents": [],
+    "id": "f64d4b34-44d4-4a2e-acba-1958c3f9ad69"
   }
 }
