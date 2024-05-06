@@ -36,7 +36,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Name
+            Text: =ThisItem.'Event Name'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 173
             X: =103
@@ -132,7 +132,7 @@
                 Items: =Choices('acceptance_status (Database for Forms 2)')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices('acceptance_status (Database for Forms 2)',DataCardValue1_1.SearchText)
+                SearchItems: =[]
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -169,12 +169,12 @@
             BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_name"
-            Default: =ThisItem.Name
+            Default: =ThisItem.'Event Name'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,Name)
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Event Name')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, Name)
+            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, 'Event Name')
             Required: =true
             Update: =EventPageName_1.Text
             Width: =312

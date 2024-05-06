@@ -141,7 +141,7 @@
                 Items: =Choices('acceptance_status (Database for Forms 2)')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices('acceptance_status (Database for Forms 2)',AcceptanceStatusValue.SearchText)
+                SearchItems: =[]
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -179,7 +179,7 @@
             DataField: ="cr864_PortalUser"
             Default: =ThisItem.'Portal User'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,cr864_PortalUser)
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Portal User')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -204,10 +204,10 @@
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["fullname"]
                 DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@'Database for Forms 2'].cr864_PortalUser)
+                Items: =Choices([@'Database for Forms 2'].'Portal User')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["fullname"]
-                SearchItems: =Search(Choices([@'Database for Forms 2'].cr864_PortalUser),EventPageNam.SearchText,fullname)
+                SearchItems: =Search(Choices([@'Database for Forms 2'].'Portal User'),EventPageNam.SearchText,fullname)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -244,12 +244,12 @@
             BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_name"
-            Default: =ThisItem.Name
+            Default: =ThisItem.'Event Name'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,Name)
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Event Name')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, Name)
+            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, 'Event Name')
             Required: =true
             Update: =EventPageEventName.Text
             Width: =312

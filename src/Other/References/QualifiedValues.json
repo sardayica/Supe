@@ -22,20 +22,6 @@
       }
     },
     {
-      "Kind": "default.cds_cr864_databaseforprofiles_forms",
-      "Namespace": "Database for Profiles (Forms)",
-      "Values": {
-        "Information": "e1593bcd-be29-4741-b63e-a35ceac83411"
-      }
-    },
-    {
-      "Kind": "default.cds_cr864_databaseforforms_forms",
-      "Namespace": "Database for Forms (Forms)",
-      "Values": {
-        "Information": "4527693a-7fff-42f4-8208-cbfeff607888"
-      }
-    },
-    {
       "Kind": "default.cds_contact_forms",
       "Namespace": "Contacts (Formularer)",
       "Values": {
@@ -57,6 +43,20 @@
         "Recent Cases and Entitlements": "f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e",
         "Social Profiles": "7bb87dfd-ec3e-4ed9-8e3e-5725d3067295",
         "Update Contact": "26843818-6508-4afe-9342-5fae2ebf15ca"
+      }
+    },
+    {
+      "Kind": "default.cds_cr864_databaseforprofiles_forms",
+      "Namespace": "Database for Profiles (Forms)",
+      "Values": {
+        "Information": "e1593bcd-be29-4741-b63e-a35ceac83411"
+      }
+    },
+    {
+      "Kind": "default.cds_cr864_databaseforforms_forms",
+      "Namespace": "Database for Forms (Forms)",
+      "Values": {
+        "Information": "4527693a-7fff-42f4-8208-cbfeff607888"
       }
     }
   ]
