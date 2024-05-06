@@ -11,6 +11,7 @@
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
       "cr864_acceptancestatus": "acceptance_status",
+      "cr864_adress": "Adress ",
       "cr864_databaseforforms2_AsyncOperations": "System Jobs",
       "cr864_databaseforforms2_BulkDeleteFailures": "Bulk Delete Failures",
       "cr864_databaseforforms2_connections1": "Connections (cr864_databaseforforms2_connections1)",

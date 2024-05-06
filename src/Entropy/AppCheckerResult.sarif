@@ -1234,6 +1234,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Adress _DataCard1'.EventPageAdress.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Adress _DataCard1'.EventPageAdress.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EVENTS REQUEST",
+                "type": "'EVENTS REQUEST'.Form1.'Adress _DataCard1'.EventPageAdress"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App._selectedUser"
                 }
               ],
