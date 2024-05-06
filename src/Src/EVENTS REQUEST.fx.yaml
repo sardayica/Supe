@@ -894,27 +894,3 @@
         Y: =690
         ZIndex: =8
 
-    Button1_3 As button:
-        Align: =Align.Left
-        Fill: =RGBA(184, 0, 0, 1)
-        OnSelect: |
-            =SubmitForm(Form1);
-            
-            If(
-                Text(AcceptanceStatusValue.Selected.Value) = "accepted", 
-            
-                IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(EventPageEmail.Text, "Event has been accepted", EventPageNam.Text, EnventPageDate.SelectedDate, EventPageVolunteers.Text, EventPageEventName.Text),
-            
-            
-                'PowerAppV2->Sendenmail(V2)'.Run(EventPageEmail.Text, "Event has not been accepted", EventPageEventName.Text, "Event name", EnventPageDate.SelectedDate, EventPageVolunteers.Text)
-                
-            );
-            
-            Notify("Email has been sent", NotificationType.Success, 5000);
-        PaddingLeft: =15
-        Text: ="Send Out Info"
-        Width: =228
-        X: =551
-        Y: =690
-        ZIndex: =9
-
