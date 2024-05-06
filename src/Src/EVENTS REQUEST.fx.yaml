@@ -1,7 +1,7 @@
 "'EVENTS REQUEST' As screen":
     Fill: =RGBA(184, 0, 0, 1)
 
-    "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+    "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
         Height: =621
@@ -9,7 +9,7 @@
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
-        TemplateSize: =104
+        TemplateSize: =90
         Width: =366
         X: =20
         Y: =126
@@ -17,25 +17,28 @@
 
         Rectangle4 As rectangle:
             Fill: =If(Text(ThisItem.acceptance_status) = "not accepted", RGBA(255, 255, 255, 1), RGBA(1, 180, 50, 1))
-            Height: =102
+            Height: =90
             OnSelect: =Select(Parent)
-            Width: =366
+            Width: =362
+            X: =4
             ZIndex: =1
 
-        Image5 As image:
-            Height: =72
-            Image: =ThisItem.Image
+        Title3 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
-            RadiusBottomLeft: =8
-            RadiusBottomRight: =8
-            RadiusTopLeft: =8
-            RadiusTopRight: =8
-            Width: =72
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Organisation '
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
             X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle2.Size * 1.8)) / 2
             ZIndex: =2
 
-        Title7 As label:
+        Subtitle2 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -43,29 +46,14 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Organisation '
+            Text: =ThisItem.'Event Name'
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 173
-            X: =103
-            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle6.Size * 1.8)) / 2
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height
             ZIndex: =3
 
-        Subtitle6 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.'Organisation '
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title7.Width
-            X: =Title7.X
-            Y: =Title7.Y + Title7.Height
-            ZIndex: =4
-
-        NextArrow7 As icon.ChevronRight:
+        NextArrow1 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Color: =RGBA(166, 166, 166, 1)
             Height: =50
@@ -79,22 +67,22 @@
             Width: =50
             X: =Parent.TemplateWidth - Self.Width - 12
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =5
+            ZIndex: =4
 
-        Separator8 As rectangle:
+        Separator2 As rectangle:
             Height: =8
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =6
+            ZIndex: =5
 
-        Rectangle7 As rectangle:
+        Rectangle3 As rectangle:
             Fill: =If(Text(ThisItem.acceptance_status) = "not accepted", RGBA(1, 1, 1, 1), RGBA(255, 255, 255, 1))
-            Height: =Parent.TemplateHeight - Separator8.Height
+            Height: =Parent.TemplateHeight - Separator2.Height
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
             Width: =4
-            ZIndex: =7
+            ZIndex: =6
 
     Form1 As form:
         DataSource: ='Database for Forms 2'
