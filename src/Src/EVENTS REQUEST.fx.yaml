@@ -163,73 +163,6 @@
                 Y: =DataCardKey10.Y
                 ZIndex: =4
 
-        "'Portal User_DataCard2' As typedDataCard.comboBoxEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="cr864_PortalUser"
-            Default: =ThisItem.'Portal User'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Portal User')
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =EventPageNam.Selected
-            Width: =312
-            X: =0
-            Y: =3
-            ZIndex: =1
-
-            DataCardKey11 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            EventPageNam As combobox:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                ChevronBackground: =RGBA(184, 0, 0, 1)
-                DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["fullname"]
-                DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@'Database for Forms 2'].'Portal User')
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SearchFields: =["fullname"]
-                SearchItems: =Search(Choices([@'Database for Forms 2'].'Portal User'),EventPageNam.SearchText,fullname)
-                SelectMultiple: =false
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey11.Y + DataCardKey11.Height + 5
-                ZIndex: =2
-
-            ErrorMessage11 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =EventPageNam.Y + EventPageNam.Height
-                ZIndex: =3
-
-            StarVisible11 As label:
-                Align: =Align.Center
-                Height: =DataCardKey11.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey11.Y
-                ZIndex: =4
-
         "'acceptance status' As typedDataCard.comboBoxOptionSetSingleEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_acceptancestatus"
@@ -242,7 +175,7 @@
             Update: =AcceptanceStatusValue.Selected.Value
             Visible: =true
             Width: =312
-            X: =1
+            X: =0
             Y: =3
             ZIndex: =1
 
@@ -309,7 +242,7 @@
             Height: =40
             Required: =false
             Width: =312
-            X: =2
+            X: =1
             Y: =3
             ZIndex: =1
 

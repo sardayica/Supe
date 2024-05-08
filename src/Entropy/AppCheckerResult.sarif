@@ -1221,36 +1221,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Portal User_DataCard2'.EventPageNam.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'Portal User_DataCard2'.EventPageNam.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "EVENTS REQUEST",
-                "type": "'EVENTS REQUEST'.Form1.'Portal User_DataCard2'.EventPageNam"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'EVENTS REQUEST'.Form1.'acceptance status'.AcceptanceStatusValue.AccessibleLabel"
                 }
               ],
