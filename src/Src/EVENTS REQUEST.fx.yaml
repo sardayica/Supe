@@ -99,10 +99,10 @@
             DataField: ="cr864_adress"
             Default: =ThisItem.'Adress '
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,cr864_adress)
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Adress ')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, cr864_adress)
+            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, 'Adress ')
             Required: =false
             Update: =EventPageAdress.Text
             Width: =312
@@ -197,7 +197,7 @@
                 Items: =Choices([@'Database for Forms 2'].'Portal User')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["fullname"]
-                SearchItems: =Search(Choices([@'Database for Forms 2'].'Portal User'),EventPageNam.SearchText,fullname)
+                SearchItems: =Search(Choices([@'Database for Forms 2'].'Portal User'),EventPageNam.SearchText,'Full Name')
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
