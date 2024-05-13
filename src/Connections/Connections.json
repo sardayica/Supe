@@ -113,6 +113,9 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/u/patelronak/specialtrain-logicflows-2/1.0.1692.3734/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "1d4d0dac-24e1-412b-8217-e380e4b652fa": {
+          "value": "shared_commondataserviceforapps"
+        },
         "workflowDisplayName": {
           "value": "PowerAppV2 -> Hent en række efter id fra det valgte miljø"
         },
@@ -122,6 +125,9 @@
         }
       },
       "parameterHintsV2": {
+        "shared_commondataserviceforapps": {
+          "value": "1d4d0dac-24e1-412b-8217-e380e4b652fa"
+        },
         "workflowDisplayName": {
           "value": "PowerAppV2 -> Hent en række efter id fra det valgte miljø"
         },
