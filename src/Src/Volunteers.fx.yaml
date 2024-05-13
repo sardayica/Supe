@@ -1,4 +1,5 @@
 Volunteers As screen:
+    Fill: =RGBA(184, 0, 0, 1)
 
     "Gallery8 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnOverlayVariant_ver5.0'":
         DelayItemLoading: =true
