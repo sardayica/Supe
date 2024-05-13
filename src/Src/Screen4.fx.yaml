@@ -4,7 +4,8 @@ Screen4 As screen:
         DelayItemLoading: =true
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        TemplateSize: =570
+        Width: =562
         X: =40
         Y: =40
         ZIndex: =1

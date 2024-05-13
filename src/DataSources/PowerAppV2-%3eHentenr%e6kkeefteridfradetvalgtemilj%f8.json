@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "2c8e76dd-be73-452a-a9d4-444029c5fd50",
+    "Name": "PowerAppV2->Hentenrækkeefteridfradetvalgtemiljø",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": null
+  }
+]

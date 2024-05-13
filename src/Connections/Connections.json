@@ -53,6 +53,20 @@
     "dependents": [],
     "id": "1ba3c2d6-6785-4237-885c-617f94e7b3f6"
   },
+  "1d4d0dac-24e1-412b-8217-e380e4b652fa": {
+    "connectionRef": {
+      "displayName": "Microsoft Dataverse",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1684/1.0.1684.3697/commondataserviceforapps/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_commondataserviceforapps"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "878bd6ce-1bba-4af4-8afa-6ca99a4dd486"
+    ],
+    "id": "1d4d0dac-24e1-412b-8217-e380e4b652fa"
+  },
   "1ef6af1a-bccd-4d15-8d80-9c25227c82e3": {
     "connectionRef": {
       "displayName": "Logic flows",
@@ -92,6 +106,40 @@
     },
     "dependents": [],
     "id": "1ef6af1a-bccd-4d15-8d80-9c25227c82e3"
+  },
+  "878bd6ce-1bba-4af4-8afa-6ca99a4dd486": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/patelronak/specialtrain-logicflows-2/1.0.1692.3734/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowDisplayName": {
+          "value": "PowerAppV2 -> Hent en række efter id fra det valgte miljø"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "2c8e76dd-be73-452a-a9d4-444029c5fd50"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowDisplayName": {
+          "value": "PowerAppV2 -> Hent en række efter id fra det valgte miljø"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "2c8e76dd-be73-452a-a9d4-444029c5fd50"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerAppV2->Hentenrækkeefteridfradetvalgtemiljø"
+    ],
+    "dependencies": {
+      "shared_commondataserviceforapps": "1d4d0dac-24e1-412b-8217-e380e4b652fa"
+    },
+    "dependents": [],
+    "id": "878bd6ce-1bba-4af4-8afa-6ca99a4dd486"
   },
   "a41420d0-2d09-45c6-8ccf-9e5e4b563dab": {
     "connectionRef": {
