@@ -1,0 +1,11 @@
+Screen4 As screen:
+
+    Gallery5 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        X: =40
+        Y: =40
+        ZIndex: =1
+
