@@ -87,10 +87,10 @@
     Form1 As form:
         DataSource: ='Database for Forms 2'
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =623
+        Height: =621
         Item: =Gallery3.Selected
-        Width: =937
-        X: =409
+        Width: =949
+        X: =397
         Y: =125
         ZIndex: =2
 
