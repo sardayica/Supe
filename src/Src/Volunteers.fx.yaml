@@ -6,8 +6,8 @@ Volunteers As screen:
         Items: |-
             =Filter(
                 'Volunteer sign ups',
-                
-            );
+                'Event_Name_txt' = Gallery3_2.Selected.'Event Name'
+            )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =4
@@ -44,7 +44,7 @@ Volunteers As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Volunteer_name_txt
+            Text: =ThisItem.ID
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 64
             X: =32
