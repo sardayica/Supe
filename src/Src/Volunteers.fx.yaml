@@ -13,9 +13,9 @@ Volunteers As screen:
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =4
         TemplateSize: =Min(320, Self.Height - 60)
-        Width: =916
-        WrapCount: =4
-        X: =426
+        Width: =642
+        WrapCount: =3
+        X: =700
         Y: =71
         ZIndex: =1
 
@@ -82,7 +82,7 @@ Volunteers As screen:
         Width: =366
         X: =32
         Y: =71
-        ZIndex: =5
+        ZIndex: =2
 
         Rectangle4_1 As rectangle:
             Fill: =If(Text(ThisItem.acceptance_status) = "not accepted", RGBA(255, 255, 255, 1), RGBA(1, 180, 50, 1))
@@ -152,4 +152,62 @@ Volunteers As screen:
             Visible: =ThisItem.IsSelected
             Width: =4
             ZIndex: =6
+
+    Rectangle12 As rectangle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =621
+        Width: =262
+        X: =418
+        Y: =71
+        ZIndex: =3
+
+    FormViewer1 As formViewer:
+        DataSource: =Filter('Database for Forms 2', 'Database for Forms 2 (Visninger)'.'accepted events')
+        Height: =103
+        Item: =Gallery3_2.Selected
+        NumberOfColumns: =1
+        Width: =262
+        X: =418
+        Y: =71
+        ZIndex: =4
+
+        "'Number of volunteers_DataCard2' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="cr864_numberofvolunteers"
+            Default: =ThisItem.'Number of volunteers'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,cr864_numberofvolunteers)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =43
+            Required: =true
+            Width: =262
+            X: =0
+            Y: =0
+            ZIndex: =5
+
+            DataCardKey16 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =34
+                Text: |-
+                    ="Number of 
+                    volunteers needed:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue9 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey16.Y + DataCardKey16.Height + 5
+                ZIndex: =2
 
