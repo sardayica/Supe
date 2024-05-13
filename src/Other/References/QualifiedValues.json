@@ -58,6 +58,13 @@
       "Values": {
         "Information": "4527693a-7fff-42f4-8208-cbfeff607888"
       }
+    },
+    {
+      "Kind": "default.cds_cr864_volunteersignups_forms",
+      "Namespace": "Volunteer sign ups (Formularer)",
+      "Values": {
+        "Information": "9a83efd0-4be8-4fbb-99e2-f41aff70255f"
+      }
     }
   ]
 }

@@ -97,12 +97,12 @@
         "'Adress _DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_adress"
-            Default: =ThisItem.'Adress '
+            Default: =ThisItem.'Address '
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Adress ')
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Address ')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, 'Adress ')
+            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, 'Address ')
             Required: =false
             Update: =EventPageAdress.Text
             Width: =312
@@ -237,7 +237,7 @@
             DataField: ="cr864_username"
             Default: =ThisItem.Username
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,cr864_username)
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,Username)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false

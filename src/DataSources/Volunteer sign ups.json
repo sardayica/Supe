@@ -1,0 +1,124 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr864_volunteersignupses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr864_volunteersignups",
+    "Name": "Volunteer sign ups",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr864_disclaimeraccepted": "Disclaimer accepted",
+      "cr864_EventName": "Event Name",
+      "cr864_eventname_txt": "Event_Name_txt",
+      "cr864_id": "ID",
+      "cr864_rulescheck": "rulesCheck",
+      "cr864_Volunteer_name": "Volunteer_name",
+      "cr864_volunteer_name_txt": "Volunteer_name_txt",
+      "cr864_volunteersignups_AsyncOperations": "System Jobs",
+      "cr864_volunteersignups_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr864_volunteersignups_connections1": "Connections (cr864_volunteersignups_connections1)",
+      "cr864_volunteersignups_connections2": "Connections (cr864_volunteersignups_connections2)",
+      "cr864_volunteersignups_DuplicateBaseRecord": "Duplicate Records (cr864_volunteersignups_DuplicateBaseRecord)",
+      "cr864_volunteersignups_DuplicateMatchingRecord": "Duplicate Records (cr864_volunteersignups_DuplicateMatchingRecord)",
+      "cr864_volunteersignups_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr864_volunteersignups_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr864_volunteersignups_ProcessSession": "Process Sessions",
+      "cr864_volunteersignups_SyncErrors": "Sync Errors",
+      "cr864_volunteersignupsid": "Volunteer sign ups",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Volunteer sign ups",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Volunteer sign ups (Visninger)",
+    "Name": "_cr864_volunteersignups_views",
+    "RelatedEntityName": "Volunteer sign ups",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2432c24b-ad80-440b-9067-3a3c4471dc2f": "Volunteer sign ups Lookup View",
+      "3156dd0c-c4f9-4db7-ae0a-088797b332db": "Volunteer sign ups Associated View",
+      "40a1b87f-5379-4132-883b-21f3d37fd3a1": "Active Volunteer sign ups",
+      "590b68b3-4c2a-4e2f-a15f-7e9218cbcc74": "Inactive Volunteer sign ups",
+      "d5ea66a6-062a-4745-bd3e-fea8e178e662": "Volunteer sign ups Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "rulesCheck (Volunteer sign ups)",
+    "Name": "cr864_volunteersignups_cr864_rulescheck",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr864_rulescheck",
+        "OptionSetReferenceEntityName": "Volunteer sign ups"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "cr864_rulescheck",
+    "RelatedEntityName": "Volunteer sign ups",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Volunteer sign ups)",
+    "Name": "cr864_volunteersignups_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Volunteer sign ups"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Volunteer sign ups",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Volunteer sign ups)",
+    "Name": "cr864_volunteersignups_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Volunteer sign ups"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Volunteer sign ups",
+    "Type": "OptionSetInfo"
+  }
+]

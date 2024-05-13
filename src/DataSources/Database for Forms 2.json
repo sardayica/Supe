@@ -11,7 +11,7 @@
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
       "cr864_acceptancestatus": "acceptance_status",
-      "cr864_adress": "Adress ",
+      "cr864_adress": "Address ",
       "cr864_databaseforforms2_AsyncOperations": "System Jobs",
       "cr864_databaseforforms2_BulkDeleteFailures": "Bulk Delete Failures",
       "cr864_databaseforforms2_connections1": "Connections (cr864_databaseforforms2_connections1)",
@@ -33,6 +33,7 @@
       "cr864_phone": "Phone",
       "cr864_PortalUser": "Portal User",
       "cr864_username": "Username",
+      "cr864_volunteersignups_EventName_cr864_database": "Volunteer sign ups",
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
