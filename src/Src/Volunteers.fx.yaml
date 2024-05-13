@@ -66,68 +66,6 @@ Volunteers As screen:
             Y: =Title17.Y + Title17.Height + 8
             ZIndex: =4
 
-    "Gallery8_1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
-        DelayItemLoading: =true
-        Height: =285
-        Items: |-
-            =Filter(
-                'Volunteer sign ups',
-                Event_Name_txt = Gallery3_2.Selected.'Event Name'
-            )
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =80
-        Width: =420
-        X: =798
-        Y: =438
-        ZIndex: =1
-
-        Title8 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.ID
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
-
-        NextArrow6 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =12
-            PaddingLeft: =12
-            PaddingRight: =12
-            PaddingTop: =12
-            Tooltip: ="Få vist elementdetaljer"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =2
-
-        Separator8 As rectangle:
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =3
-
-        Rectangle15 As rectangle:
-            Height: =Parent.TemplateHeight - Separator8.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
-            ZIndex: =4
-
     "Gallery3_2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
