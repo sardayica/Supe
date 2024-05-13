@@ -2,7 +2,7 @@ Volunteers As screen:
 
     "Gallery8 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnOverlayVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =677
+        Height: =665
         Items: |-
             =Filter(
                 'Volunteer sign ups',
@@ -15,7 +15,7 @@ Volunteers As screen:
         Width: =916
         WrapCount: =4
         X: =426
-        Y: =60
+        Y: =71
         ZIndex: =1
 
         Image7 As image:
@@ -58,7 +58,7 @@ Volunteers As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Disclaimer accepted'
+            Text: =ThisItem.Volunteer_name_txt
             VerticalAlign: =VerticalAlign.Top
             Width: =Title17.Width
             X: =Title17.X
