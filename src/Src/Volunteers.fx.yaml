@@ -95,7 +95,7 @@ Volunteers As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Organisation '
+            Text: =ThisItem.'Event Name'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 86
             X: =16
@@ -110,7 +110,7 @@ Volunteers As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Event Name'
+            Text: =ThisItem.'Organisation '
             VerticalAlign: =VerticalAlign.Top
             Width: =Title3_1.Width
             X: =Title3_1.X
