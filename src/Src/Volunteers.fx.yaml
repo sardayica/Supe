@@ -356,7 +356,7 @@ Volunteers As screen:
             
             Set(
                 VolunteerNames,
-                Concat(VolunteerNamesCollection, ", ")
+                Concat(VolunteerNamesCollection, Value & ", ")
             );
             
             Volunteersmail.Run(
