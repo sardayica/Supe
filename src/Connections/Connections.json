@@ -162,7 +162,8 @@
       "1ef6af1a-bccd-4d15-8d80-9c25227c82e3",
       "f64d4b34-44d4-4a2e-acba-1958c3f9ad69",
       "1ba3c2d6-6785-4237-885c-617f94e7b3f6",
-      "a4b8e265-892b-4a4d-bd26-3dfdf5a91b81"
+      "a4b8e265-892b-4a4d-bd26-3dfdf5a91b81",
+      "fb37857f-65b9-4f02-a614-bc690e63b8c8"
     ],
     "id": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
   },
@@ -245,5 +246,39 @@
     },
     "dependents": [],
     "id": "f64d4b34-44d4-4a2e-acba-1958c3f9ad69"
+  },
+  "fb37857f-65b9-4f02-a614-bc690e63b8c8": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/patelronak/specialtrain-logicflows-2/1.0.1692.3734/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowDisplayName": {
+          "value": "Volunteers mail"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "cbb2f4c9-f773-4a24-b0ab-e7bab572abfd"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowDisplayName": {
+          "value": "Volunteers mail"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "cbb2f4c9-f773-4a24-b0ab-e7bab572abfd"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Volunteersmail"
+    ],
+    "dependencies": {
+      "shared_office365": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+    },
+    "dependents": [],
+    "id": "fb37857f-65b9-4f02-a614-bc690e63b8c8"
   }
 }

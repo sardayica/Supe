@@ -1,16 +1,30 @@
 Screen2 As screen:
+    Fill: =RGBA(234, 234, 234, 1)
+    LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
 
     Button3 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
         OnSelect: |
             =KlikpåenknapiPowerAppsforatsendeenmail.Run(Email.Text, Subject.Text, Description.Text);
             Reset(Email); Reset(Subject); Reset(Description);
+        Size: =15
         Text: ="Knap"
         X: =1124
         Y: =666
         ZIndex: =1
 
     Label5 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =86
+        Size: =13
         Text: ="To"
         Width: =310
         X: =48
@@ -18,31 +32,61 @@ Screen2 As screen:
         ZIndex: =2
 
     Email As text:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
         Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
         Height: =56
         HintText: ="Email"
+        HoverBorderColor: =RGBA(89, 0, 0, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(222, 179, 184, 1)
+        Size: =13
         Width: =600
         X: =48
         Y: =134
         ZIndex: =3
 
     Label6 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
         Text: ="Subject"
         X: =48
         Y: =218
         ZIndex: =4
 
     Subject As text:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
         Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
         Height: =56
         HintText: ="Subject"
+        HoverBorderColor: =RGBA(89, 0, 0, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(222, 179, 184, 1)
+        Size: =13
         Width: =600
         X: =48
         Y: =286
         ZIndex: =5
 
     Label7 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =46
+        Size: =13
         Text: ="Describtion"
         Width: =320
         X: =48
@@ -50,17 +94,36 @@ Screen2 As screen:
         ZIndex: =6
 
     Description As text:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
         Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
         Height: =226
         HintText: ="Description"
+        HoverBorderColor: =RGBA(89, 0, 0, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(222, 179, 184, 1)
+        Size: =13
         Width: =600
         X: =48
         Y: =440
         ZIndex: =7
 
     Button3_1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
         OnSelect: |
             =IwanttocreateaPowerAppsfunctionthattakesindatafrommyFormandsendsanemailusingoutlookwithallthedatainthebodyoftheemail.Run(Email.Text, "Velkommen", "Mikkel", "24-05-2024");
+        Size: =15
         Text: ="Knap"
         X: =939
         Y: =459

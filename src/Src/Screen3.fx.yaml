@@ -1,13 +1,20 @@
 "Screen3 As screen.'tabletLayout_Email_ver3.0'":
+    Fill: =RGBA(234, 234, 234, 1)
+    LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
 
     RectQuickActionBar1 As rectangle:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Fill: =RGBA(164, 38, 44, 1)
         Height: =64
         Width: =Parent.Width
         ZIndex: =1
 
     LblAppName1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =64
         PaddingLeft: =0
+        Size: =18
         Text: ="Mail"
         Width: =Parent.Width - Self.X - 64
         Wrap: =false
@@ -15,6 +22,10 @@
         ZIndex: =2
 
     iconMail1 As icon.Send:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         DisabledFill: =RGBA(240, 240, 240, 0.5)
         DisplayMode: |-
             =/*Email must have a subject and recipients to be sent*/
@@ -25,11 +36,14 @@
         PaddingLeft: =14
         PaddingRight: =14
         PaddingTop: =14
+        PressedFill: =RGBA(255, 255, 255, 0.3)
         Tooltip: ="Send meddelelse"
         X: =Parent.Width - Self.Width
         ZIndex: =3
 
     LblRecipientCount1 As label:
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         PaddingLeft: =0
         Size: =13
         Text: ="*Til (" &CountRows(MyPeople) & ")"
@@ -41,15 +55,30 @@
 
     TextSearchBox1 As text:
         AccessibleLabel: ="Søg efter personer, eller tilføj en mailadresse. Mindst én modtager er påkrævet for en fuldført afsendelse."
+        BorderColor: =RGBA(89, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
         Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
         HintText: ="Søg efter en person, eller tilføj en maildresse"
+        HoverBorderColor: =RGBA(89, 0, 0, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(222, 179, 184, 1)
         PaddingLeft: =50
+        Size: =13
         Width: =Parent.Width - Self.X * 2
         X: =32
         Y: =LblRecipientCount1.Y + LblRecipientCount1.Height + 3
         ZIndex: =5
 
     SearchIcon1 As icon.Search:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(89, 0, 0, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =Self.Width
         Icon: =Icon.Search
         PaddingBottom: =8
@@ -63,6 +92,10 @@
         ZIndex: =6
 
     AddIcon1 As icon.Add:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(89, 0, 0, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =TextSearchBox1.Height
         Icon: =Icon.Add
         OnSelect: |-
@@ -89,7 +122,7 @@
 
     EmailPeopleGallery1 As gallery.SelectedUsersTabletGallery:
         AccessibleLabel: ="Bruger valgte personer"
-        BorderColor: =TextSearchBox1.BorderColor
+        BorderColor: =RGBA(89, 0, 0, 1)
         Height: |-
             =/*Height adjusts to number of items in gallery*/
             Min((Self.TemplateHeight + Self.TemplatePadding * 2) * RoundUp(CountRows(Self.AllItems) / 4, 0), 182)
@@ -106,12 +139,16 @@
         ZIndex: =8
 
         Rectangle1 As rectangle:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Fill: =RGBA(164, 38, 44, 1)
             Height: =Parent.TemplateHeight
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             ZIndex: =1
 
         Title1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =2
             Height: =EmailPeopleGallery1.TemplateHeight
             OnSelect: =Set(_selectedUser, ThisItem)
@@ -125,7 +162,10 @@
 
         iconRemove1 As icon.Cancel:
             AccessibleLabel: =iconRemove1.Tooltip
+            BorderColor: =RGBA(89, 0, 0, 1)
             Color: =Title1.Color
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =EmailPeopleGallery1.TemplateHeight
             Icon: =Icon.Cancel
             OnSelect: =Remove(MyPeople, LookUp(MyPeople, UserPrincipalName = ThisItem.UserPrincipalName))
@@ -140,6 +180,8 @@
             ZIndex: =3
 
     LblEmailSubject1 As label:
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         PaddingLeft: =0
         Size: =13
         Text: ="*Emne"
@@ -151,8 +193,19 @@
 
     TextEmailSubject1 As text:
         AccessibleLabel: ="Der kræves et emne for at kunne sende en mail."
+        BorderColor: =RGBA(89, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
         Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
         HintText: ="Tilføj et emne"
+        HoverBorderColor: =RGBA(89, 0, 0, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(222, 179, 184, 1)
+        Size: =13
         TabIndex: =If(PeopleBrowseGallery1.Visible, -1, 0)
         Width: =Parent.Width - Self.X * 2
         X: =32
@@ -160,6 +213,8 @@
         ZIndex: =10
 
     LblEmailMessage1 As label:
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         PaddingLeft: =0
         Size: =13
         Text: ="Meddelelse"
@@ -171,10 +226,21 @@
 
     TextEmailMessage1 As text:
         AccessibleLabel: ="Tilføj en meddelelse"
+        BorderColor: =RGBA(89, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
         Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
         Height: =238
         HintText: ="Tilføj en meddelelse"
+        HoverBorderColor: =RGBA(89, 0, 0, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(222, 179, 184, 1)
         Mode: =TextMode.MultiLine
+        Size: =13
         TabIndex: =If(PeopleBrowseGallery1.Visible, -1, 0)
         Width: =Parent.Width - Self.X * 2
         X: =32
@@ -183,6 +249,7 @@
 
     PeopleBrowseGallery1 As gallery.PeoplePickerGallerySmallTablet:
         AccessibleLabel: ="Søgeresultater for brugeropslag"
+        BorderColor: =RGBA(89, 0, 0, 1)
         BorderThickness: =2
         Fill: =Parent.Fill
         Height: =If(Self.Visible, Parent.Height / 2 + 200, 0)
@@ -210,6 +277,8 @@
 
         Title2 As label:
             BorderColor: =Self.Color
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =2
             OnSelect: |-
                 =/*Select user, clear search contents and if this user hasn't been added to MyPeople collection, add them*/
@@ -227,7 +296,9 @@
             ZIndex: =2
 
         Subtitle1 As label:
+            BorderColor: =RGBA(89, 0, 0, 1)
             Color: =ColorFade(Title2.Color, 0.20)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =2
             OnSelect: =Select(Title2)
             Size: =17
@@ -239,6 +310,8 @@
             ZIndex: =3
 
         Separator1 As rectangle:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Fill: =RGBA(89, 0, 0, 1)
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
