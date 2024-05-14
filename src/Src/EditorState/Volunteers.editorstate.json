@@ -936,7 +936,7 @@
         {
           "Category": "Design",
           "PropertyName": "TemplatePadding",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",

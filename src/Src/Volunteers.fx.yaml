@@ -3,7 +3,7 @@ Volunteers As screen:
 
     "Gallery8 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnOverlayVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =665
+        Height: =621
         Items: |-
             =Filter(
                 'Volunteer sign ups',
