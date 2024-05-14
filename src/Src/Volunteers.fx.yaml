@@ -349,13 +349,25 @@ Volunteers As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
         OnSelect: |+
-            =Set VolunteerNames, Concat(VolunteersSigndUp, Volunteer_name_txt & ", ").Result,
+            =ClearCollect(
+                VolunteerNamesCollection,
+                VolunteersSigndUp.Selected.Volunteer_name_txt
+            );
+            
+            Set(
+                VolunteerNames,
+                Concat(VolunteerNamesCollection, ", ")
+            );
+            
             Volunteersmail.Run(
                 EventPageEmail.Text,
                 "We have found all the volunteers for your event",
                 EventPageName_1.Text,
                 VolunteerNames
             )
+            
+            
+            
             
         Size: =15
         Text: ="Send info Volunteers"
