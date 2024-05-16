@@ -280,7 +280,7 @@ Volunteers As screen:
             DataField: ="cr864_numberofvolunteers"
             Default: =ThisItem.'Number of volunteers'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Number of volunteers')
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,cr864_numberofvolunteers)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =43
             Required: =true
