@@ -485,3 +485,15 @@
         Y: =458
         ZIndex: =12
 
+    Label3_1 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =150
+        Size: =13
+        Text: =Text(Gallery3_3.Selected.Email)
+        Width: =222
+        X: =418
+        Y: =586
+        ZIndex: =13
+
