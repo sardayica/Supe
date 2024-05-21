@@ -99,7 +99,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 6,
+    "BindingErrorCount": 4,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -121,7 +121,7 @@
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "bf502bb1-ad00-46b0-92af-ce1597c0ff06",
+    "AppName": "Week1",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
@@ -129,7 +129,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "da-DK"
   },
   "ScreenOrder": [
     "EVENTS REQUEST",

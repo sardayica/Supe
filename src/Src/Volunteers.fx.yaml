@@ -89,87 +89,17 @@ Volunteers As screen:
             Y: =Title17.Y + Title17.Height + 8
             ZIndex: =4
 
-    "Gallery8_1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
-        BorderColor: =RGBA(89, 0, 0, 1)
-        DelayItemLoading: =true
-        Height: =93
-        Items: |
-            =CountRows(
-                Filter(
-                    'Volunteer sign ups',
-                    Event_Name_txt = Gallery3_2.Selected.'Event Name'
-                )
-            )
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =80
-        Width: =642
-        X: =700
-        Y: =432
-        ZIndex: =1
-
-        Title4 As label:
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.ID
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
-
-        NextArrow2 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(166, 166, 166, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =12
-            PaddingLeft: =12
-            PaddingRight: =12
-            PaddingTop: =12
-            Tooltip: ="Få vist elementdetaljer"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =2
-
-        Separator3 As rectangle:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =3
-
-        Rectangle5 As rectangle:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            Fill: =RGBA(89, 0, 0, 1)
-            Height: =Parent.TemplateHeight - Separator3.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
-            ZIndex: =4
-
     "Gallery3_2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
         BorderColor: =RGBA(89, 0, 0, 1)
         DelayItemLoading: =true
         DisplayMode: =If(FormEditable, DisplayMode.Edit, DisplayMode.View)
         Fill: =RGBA(255, 255, 255, 1)
         Height: =621
-        Items: ='Database for Forms 2'
+        Items: |-
+            =Filter(
+                'Database for Forms 2',
+                Text(acceptance_status) = ("accepted")
+            )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -273,13 +203,58 @@ Volunteers As screen:
     FormViewer1 As formViewer:
         BorderColor: =RGBA(89, 0, 0, 1)
         DataSource: =Filter('Database for Forms 2', 'Database for Forms 2 (Visninger)'.'accepted events')
-        Height: =103
+        Height: =255
         Item: =Gallery3_2.Selected
         NumberOfColumns: =1
         Width: =262
         X: =418
         Y: =71
         ZIndex: =4
+
+        "'Volunteers signed up_DataCard1' As typedDataCard.textualViewCard":
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="cr864_volunteerssignedup"
+            Default: =ThisItem.'Volunteers signed up'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,cr864_volunteerssignedup)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =262
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey11 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue1 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(89, 0, 0, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey11.Y + DataCardKey11.Height + 5
+                ZIndex: =2
 
         "'Number of volunteers_DataCard2' As typedDataCard.textualViewCard":
             BorderColor: =RGBA(89, 0, 0, 1)

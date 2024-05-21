@@ -6,18 +6,33 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr864_formeditability",
+    "MaxGetRowsCount": 500,
     "Name": "Form Editabilities",
     "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
       "cr864_editable": "Editable",
+      "cr864_formeditability_AsyncOperations": "System Jobs",
+      "cr864_formeditability_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr864_formeditability_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr864_formeditability_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr864_formeditability_ProcessSession": "Process Sessions",
+      "cr864_formeditability_SyncErrors": "Sync Errors",
       "cr864_formeditabilityid": "Form Editability",
       "cr864_formid": "Form ID",
       "cr864_formname": "Form Name",
       "cr864_lastmodifiedby": "Last Modified By",
       "cr864_lastmodifieddate": "Last Modified Date",
+      "createdby": "Created By",
       "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
       "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
       "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
       "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
       "statecode": "Status",
       "statuscode": "Status Reason",
       "timezoneruleversionnumber": "Time Zone Rule Version Number",
@@ -26,6 +41,20 @@
     },
     "PreferredName": "Form Editabilities",
     "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Form Editabilities (Visninger)",
+    "Name": "_cr864_formeditability_views",
+    "RelatedEntityName": "Form Editabilities",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "42d5f267-7949-49d1-8478-ff2ca34d4dc1": "Form Editability Associated View",
+      "4bb97a75-8796-400a-a4cb-ff0e6a5d6326": "Active Form Editabilities",
+      "5e433c91-d7ce-41f4-a531-8f6d2e8bf4e3": "Inactive Form Editabilities",
+      "7bfff99e-8919-47db-9c9b-4d941acaa14b": "Form Editability Advanced Find View",
+      "c922d7fa-08b7-4ae4-b1a3-2ef57c7c9930": "Form Editability Lookup View"
+    }
   },
   {
     "DisplayName": "Editable (Form Editabilities)",
@@ -44,6 +73,46 @@
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "cr864_editable",
+    "RelatedEntityName": "Form Editabilities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Form Editabilities)_1",
+    "Name": "cr864_formeditability_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Form Editabilities"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Form Editabilities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Form Editabilities)_1",
+    "Name": "cr864_formeditability_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Form Editabilities"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
     "RelatedEntityName": "Form Editabilities",
     "Type": "OptionSetInfo"
   },
