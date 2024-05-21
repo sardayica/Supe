@@ -386,9 +386,7 @@
         Height: =52
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: |-
-            =Set(selectedItemsJSON, JSON(ForAll(
-            Volunteersmail.Run(, "We have found all the volunteers for your event", EventPageEmail.Text) 
+        OnSelect: =
         Size: =15
         Text: ="Send info Volunteers"
         Width: =268
