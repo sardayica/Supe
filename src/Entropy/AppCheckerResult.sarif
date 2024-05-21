@@ -2281,6 +2281,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Gallery3_3.NextArrow1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.Rectangle4_2.TabIndex"
                 }
               ],

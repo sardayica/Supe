@@ -177,7 +177,30 @@
             DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =50
             Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
+            OnSelect: |
+                =Select(Parent);
+                Set(selectedItem, ThisItem);
+                Set(selectedVolunteers, 
+                    Filter(
+                        'Volunteer sign ups',
+                        Event_Name_txt = Gallery3_3.Selected.'Event Name'
+                    )
+                );
+                Set(selectedItemJSON, 
+                    JSON(
+                        { 
+                            body: {
+                                volunteers: 
+                                    ForAll(selectedVolunteers, 
+                                        { 
+                                            name: Volunteer_name_txt, 
+                                            email: 'E-mail' 
+                                        }
+                                    )
+                            }
+                        }
+                    )
+                );
             PaddingBottom: =16
             PaddingLeft: =16
             PaddingRight: =16
