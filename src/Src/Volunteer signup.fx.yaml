@@ -386,7 +386,7 @@
         Height: =52
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =Volunteersmail.Run(selectedItemJSON, EventPageName_1.Text, EventPageEmail.Text);
+        OnSelect: =Volunteersmail.Run(selectedItemJSON, "Mikkels event", "bruger1@power.kea.dk");
         Size: =15
         Text: ="Send info Volunteers"
         Width: =268
