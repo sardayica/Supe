@@ -293,7 +293,7 @@
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
         OnSelect: |
-            =Volunteersmail.Run(EventPageEmail.Text, "We have found all the volunteers for your event", EventPageName_1.Text, VolunteersSigndUp.Selected.Volunteer_name_txt)
+            =Volunteersmail.Run(EventPageEmail.Text, "We have found all the volunteers for your event", EventPageEventName.Text, VolunteersSigndUp.Selected.Volunteer_name_txt)
         Size: =15
         Text: ="Send info Volunteers"
         Width: =268
@@ -330,4 +330,21 @@
         X: =955
         Y: =568
         ZIndex: =7
+
+    Button1_5 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =52
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: =Volunteersmail.Run(EventPageEmail.Text, "We have found all the volunteers for your event", EventPageName_1.Text, VolunteersSigndUp.Selected.Volunteer_name_txt)
+        Size: =15
+        Text: ="Send info Volunteers"
+        Width: =268
+        X: =720
+        Y: =652
+        ZIndex: =8
 
