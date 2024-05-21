@@ -119,13 +119,14 @@
                     JSON(
                         { 
                             body: {
-                                volunteers: 
+                                volunteers: [
                                     ForAll(selectedVolunteers, 
                                         { 
                                             name: Volunteer_name_txt, 
                                             email: 'E-mail' 
                                         }
                                     )
+                                ]
                             }
                         }
                     )
