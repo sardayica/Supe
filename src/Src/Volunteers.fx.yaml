@@ -111,7 +111,7 @@ Volunteers As screen:
 
         Rectangle4_1 As rectangle:
             BorderColor: =RGBA(89, 0, 0, 1)
-            DisplayMode: =
+            DisplayMode: =DisplayMode.View
             Fill: =If(Text(ThisItem.acceptance_status) = "not accepted", RGBA(255, 255, 255, 1), RGBA(1, 180, 50, 1))
             Height: =90
             OnSelect: =Select(Parent)
