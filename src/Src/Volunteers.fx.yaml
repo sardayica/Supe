@@ -102,6 +102,7 @@ Volunteers As screen:
             )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =
         TemplatePadding: =0
         TemplateSize: =90
         Width: =366
