@@ -99,7 +99,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 13,
+    "BindingErrorCount": 12,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -117,11 +117,11 @@
     "ManualOfflineProfileId": "",
     "Name": "Week1",
     "OriginatingVersion": "1.341",
-    "ParserErrorCount": 9,
+    "ParserErrorCount": 6,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Week1",
+    "AppName": "bf502bb1-ad00-46b0-92af-ce1597c0ff06",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",

@@ -185,6 +185,7 @@
                 );
                 Set(selectedItemJSON, 
                     JSON(
+                        { 
                                 volunteers: [
                                     ForAll(selectedVolunteers, 
                                         { 
@@ -193,6 +194,7 @@
                                         }
                                     )
                                 ]
+                            }
                     )
                 );
             PaddingBottom: =16
