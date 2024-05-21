@@ -133,11 +133,11 @@
   },
   "ScreenOrder": [
     "EVENTS REQUEST",
-    "Volunteers",
+    "Volunteer signup",
     "EVENTS ACCEPTED",
     "Screen2",
+    "Volunteers - does not work",
     "Screen3",
-    "Screen4",
-    "Screen1"
+    "Screen4"
   ]
 }
