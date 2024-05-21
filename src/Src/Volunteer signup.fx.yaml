@@ -432,3 +432,15 @@
         Y: =44
         ZIndex: =11
 
+    Label3 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =150
+        Size: =13
+        Text: =selectedItemJSON
+        Width: =880
+        X: =431
+        Y: =458
+        ZIndex: =12
+
