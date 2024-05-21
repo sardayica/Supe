@@ -602,6 +602,248 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Volunteers - does not work'.Button1_3.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteers - does not work'.Button1_3.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 300,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Volunteersmail.Run(\n    EventPageEmail.Text;\n    \"We have found all the volunteers for your event\";\n    EventPageName_1.Text;\n    Concat(\n        Filter(\n            'Volunteer sign ups';\n            Event_Name_txt = Gallery3_2.Selected.'Event Name'\n        ).Volunteer_name_txt;\n        \", \"\n    )\n)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Volunteers - does not work",
+                "type": "'Volunteers - does not work'.Button1_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "4",
+              "3"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArity",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Volunteers - does not work'.Button1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteers - does not work'.Button1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 159,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Volunteersmail.Run(EventPageEmail.Text; \"We have found all the volunteers for your event\"; EventPageName_1.Text; VolunteersSigndU0.Selected.Volunteer_name_txt)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Volunteers - does not work",
+                "type": "'Volunteers - does not work'.Button1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "4",
+              "3"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArity",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Volunteer signup'.Button1_5.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Button1_5.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 21,
+                  "snippet": {
+                    "text": ","
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Button1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "ParenClose"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Volunteer signup'.Button1_5.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Button1_5.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 21,
+                  "snippet": {
+                    "text": ","
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Button1_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Volunteer signup'.Button1_5.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Button1_5.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "("
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Button1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "1",
+              "2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArity",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Volunteer signup'.Button1_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Button1_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 159,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Volunteersmail.Run(EventPageEmail.Text; \"We have found all the volunteers for your event\"; EventPageName_1.Text; VolunteersSigndUp.Selected.Volunteer_name_txt)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Button1_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "4",
+              "3"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArity",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Screen2"
                 }
               ],
@@ -1255,6 +1497,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.Rectangle4_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.Rectangle4_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Gallery3_3.Rectangle4_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -2009,6 +2281,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.Rectangle4_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.Rectangle4_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Gallery3_3.Rectangle4_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Volunteer signup'.VolunteersSigndUp.TabIndex"
                 }
               ],
@@ -2080,6 +2382,66 @@
               },
               "properties": {
                 "member": "_selectedUser",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.selectedItem"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.selectedItem",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "selectedItem",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.selectedItemJSON"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.selectedItemJSON",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "selectedItemJSON",
                 "module": "App",
                 "type": "App"
               }
