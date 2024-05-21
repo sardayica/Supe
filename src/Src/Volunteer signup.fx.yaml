@@ -185,17 +185,14 @@
                 );
                 Set(selectedItemJSON, 
                     JSON(
-                        { 
-                            body: {
-                                volunteers: 
+                                volunteers: [
                                     ForAll(selectedVolunteers, 
                                         { 
                                             name: Volunteer_name_txt, 
                                             email: 'E-mail' 
                                         }
                                     )
-                            }
-                        }
+                                ]
                     )
                 );
             PaddingBottom: =16

@@ -253,6 +253,165 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 241,
+                  "snippet": {
+                    "text": ":"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Gallery3_3.NextArrow1_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Colon",
+              "ParenClose"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 241,
+                  "snippet": {
+                    "text": ":"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Gallery3_3.NextArrow1_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Colon",
+              "ParenClose"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 241,
+                  "snippet": {
+                    "text": ":"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Gallery3_3.NextArrow1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 231,
+                  "snippet": {
+                    "text": "volunteers"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Gallery3_3.NextArrow1_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "volunteers"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Volunteer signup'.Button1_4.OnSelect"
                 }
               ],
@@ -2052,36 +2211,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Volunteer signup'.Gallery3_3.NextArrow1_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Volunteer signup",
-                "type": "'Volunteer signup'.Gallery3_3.NextArrow1_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Volunteer signup'.VolunteersSigndUp.AccessibleLabel"
                 }
               ],
@@ -2422,6 +2551,36 @@
               },
               "properties": {
                 "member": "selectedItem",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.selectedVolunteers"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.selectedVolunteers",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "selectedVolunteers",
                 "module": "App",
                 "type": "App"
               }
