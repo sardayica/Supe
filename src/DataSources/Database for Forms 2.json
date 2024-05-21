@@ -27,6 +27,7 @@
       "cr864_description": "Description",
       "cr864_email": "Email",
       "cr864_image": "Image",
+      "cr864_iseditable": "IsEditable",
       "cr864_name": "Event Name",
       "cr864_numberofvolunteers": "Number of volunteers",
       "cr864_organisation": "Organisation ",
@@ -91,6 +92,26 @@
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "cr864_acceptancestatus",
+    "RelatedEntityName": "Database for Forms 2",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsEditable (Database for Forms 2)",
+    "Name": "cr864_databaseforforms2_cr864_iseditable",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr864_iseditable",
+        "OptionSetReferenceEntityName": "Database for Forms 2"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "cr864_iseditable",
     "RelatedEntityName": "Database for Forms 2",
     "Type": "OptionSetInfo"
   },

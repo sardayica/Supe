@@ -77,7 +77,7 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status (Form Editabilities)_1",
+    "DisplayName": "Status (Form Editabilities)",
     "Name": "cr864_formeditability_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
@@ -97,48 +97,8 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (Form Editabilities)_1",
-    "Name": "cr864_formeditability_statuscode",
-    "OptionSetInfoNameMapping": {
-      "1": "Active",
-      "2": "Inactive"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "Form Editabilities"
-      }
-    },
-    "OptionSetTypeKey": "StatusType",
-    "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Form Editabilities",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Status (Form Editabilities)",
-    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_03e8c09239_statecode",
-    "OptionSetInfoNameMapping": {
-      "0": "Active",
-      "1": "Inactive"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "Form Editabilities"
-      }
-    },
-    "OptionSetTypeKey": "StateType",
-    "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "Form Editabilities",
-    "Type": "OptionSetInfo"
-  },
-  {
     "DisplayName": "Status Reason (Form Editabilities)",
-    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_03e8c09239_statuscode",
+    "Name": "cr864_formeditability_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
       "2": "Inactive"

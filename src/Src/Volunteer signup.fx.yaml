@@ -246,7 +246,7 @@
             DataField: ="cr864_numberofvolunteers"
             Default: =ThisItem.'Number of volunteers'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,cr864_numberofvolunteers)
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Number of volunteers')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
@@ -291,7 +291,7 @@
             DataField: ="cr864_volunteerssignedup"
             Default: =ThisItem.'Volunteers signed up'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,cr864_volunteerssignedup)
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Volunteers signed up')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
@@ -386,7 +386,7 @@
         Height: =52
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =
+        OnSelect: =Volunteersmail.Run(selectedItemJSON, EventPageName_1.Text, EventPageEmail.Text);
         Size: =15
         Text: ="Send info Volunteers"
         Width: =268

@@ -218,7 +218,7 @@
             DataField: ="cr864_volunteerssignedup"
             Default: =ThisItem.'Volunteers signed up'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,cr864_volunteerssignedup)
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Volunteers signed up')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
