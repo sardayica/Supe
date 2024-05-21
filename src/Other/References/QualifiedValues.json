@@ -18,6 +18,7 @@
       "Kind": "default.cds_cr864_databaseforforms2_forms",
       "Namespace": "Database for Forms 2 (Forms)",
       "Values": {
+        "detailed": "16ad3979-d316-ef11-9f89-002248a0614d",
         "Information": "983e2021-15ce-411f-98d9-d5a88b2512a3"
       }
     },
@@ -49,7 +50,8 @@
       "Kind": "default.cds_cr864_volunteersignups_forms",
       "Namespace": "Volunteer sign ups (Forms)",
       "Values": {
-        "Information": "9a83efd0-4be8-4fbb-99e2-f41aff70255f"
+        "Information": "9a83efd0-4be8-4fbb-99e2-f41aff70255f",
+        "test": "261e7ed2-c516-ef11-9f89-002248a0614d"
       }
     },
     {
@@ -103,6 +105,11 @@
       "Values": {
         "Information": "9a83efd0-4be8-4fbb-99e2-f41aff70255f"
       }
+    },
+    {
+      "Kind": "default.cds_cr864_formeditability_forms",
+      "Namespace": "Form Editabilities (Forms)",
+      "Values": {}
     }
   ]
 }

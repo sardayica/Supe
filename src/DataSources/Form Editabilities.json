@@ -1,0 +1,90 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr864_formeditabilities",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr864_formeditability",
+    "Name": "Form Editabilities",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "cr864_editable": "Editable",
+      "cr864_formeditabilityid": "Form Editability",
+      "cr864_formid": "Form ID",
+      "cr864_formname": "Form Name",
+      "cr864_lastmodifiedby": "Last Modified By",
+      "cr864_lastmodifieddate": "Last Modified Date",
+      "createdon": "Created On",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedon": "Modified On",
+      "overriddencreatedon": "Record Created On",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Form Editabilities",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Editable (Form Editabilities)",
+    "Name": "cr864_formeditability_cr864_editable",
+    "OptionSetInfoNameMapping": {
+      "0": "Yes",
+      "1": "No"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr864_editable",
+        "OptionSetReferenceEntityName": "Form Editabilities"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "cr864_editable",
+    "RelatedEntityName": "Form Editabilities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Form Editabilities)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_03e8c09239_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Form Editabilities"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Form Editabilities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Form Editabilities)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_03e8c09239_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Form Editabilities"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Form Editabilities",
+    "Type": "OptionSetInfo"
+  }
+]
