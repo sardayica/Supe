@@ -94,47 +94,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Volunteer signup'.Button1_4.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Volunteer signup'.Button1_4.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 159,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Volunteersmail.Run(EventPageEmail.Text; \"We have found all the volunteers for your event\"; EventPageName_1.Text; VolunteersSigndUp.Selected.Volunteer_name_txt)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Volunteer signup",
-                "type": "'Volunteer signup'.Button1_4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "4",
-              "3"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArity",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Screen2.Button3_1.OnSelect"
                 }
               ],
@@ -704,6 +663,47 @@
                 "member": "OnSelect",
                 "module": "Volunteers - does not work",
                 "type": "'Volunteers - does not work'.Button1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "4",
+              "3"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArity",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Button1_7.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Button1_7.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 159,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Volunteersmail.Run(EventPageEmail.Text; \"We have found all the volunteers for your event\"; EventPageName_1.Text; VolunteersSigndUp.Selected.Volunteer_name_txt)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Screen2",
+                "type": "Screen2.Button1_7"
               }
             }
           ],
@@ -2505,6 +2505,36 @@
                 "member": "Y",
                 "module": "Volunteers - does not work",
                 "type": "'Volunteers - does not work'.Gallery3_2.Title3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 14
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.Label3_3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.Label3_3.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen2",
+                "type": "Screen2.Label3_3"
               }
             }
           ],

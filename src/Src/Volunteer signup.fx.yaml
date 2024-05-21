@@ -372,23 +372,6 @@
                 Y: =DataCardKey26.Y + DataCardKey26.Height + 5
                 ZIndex: =2
 
-    Button1_4 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(164, 38, 44, 1)
-        FontWeight: =FontWeight.Semibold
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: |
-            =Volunteersmail.Run(EventPageEmail.Text, "We have found all the volunteers for your event", EventPageName_1.Text, VolunteersSigndUp.Selected.Volunteer_name_txt)
-        Size: =15
-        Text: ="Send info Volunteers"
-        Width: =228
-        X: =1101
-        Y: =690
-        ZIndex: =5
-
     Button2_2 As button:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -400,8 +383,8 @@
         OnSelect: =Set(FormEditable, false)
         Size: =15
         Text: ="Close Event"
-        X: =706
-        Y: =608
+        X: =718
+        Y: =690
         ZIndex: =6
 
     Button2_3 As button:
@@ -415,8 +398,8 @@
         OnSelect: =Set(FormEditable, true)
         Size: =15
         Text: ="ReOpen Event"
-        X: =903
-        Y: =608
+        X: =914
+        Y: =690
         ZIndex: =7
 
     Button1_5 As button:
@@ -425,15 +408,14 @@
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(164, 38, 44, 1)
         FontWeight: =FontWeight.Semibold
-        Height: =52
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
         OnSelect: =Volunteersmail.Run(selectedItemJSON, "Volunteers found", Text(Gallery3_3.Selected.Email));
         Size: =15
         Text: ="Send info Volunteers"
-        Width: =268
-        X: =737
-        Y: =684
+        Width: =228
+        X: =1101
+        Y: =690
         ZIndex: =8
 
     Label1_2 As label:
@@ -469,31 +451,7 @@
         OnSelect: =Navigate('EVENTS REQUEST')
         Size: =15
         Text: ="Events"
-        X: =1101
+        X: =1169
         Y: =44
         ZIndex: =11
-
-    Label3 As label:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Height: =150
-        Size: =13
-        Text: =selectedItemJSON
-        Width: =880
-        X: =431
-        Y: =458
-        ZIndex: =12
-
-    Label3_1 As label:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Height: =150
-        Size: =13
-        Text: =Text(Gallery3_3.Selected.Email)
-        Width: =222
-        X: =418
-        Y: =586
-        ZIndex: =13
 
