@@ -48,7 +48,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.ID
+            Text: =ThisItem.Volunteer_name_txt
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 64
             X: =32
@@ -66,7 +66,7 @@
             PaddingRight: =0
             PaddingTop: =0
             Size: =12
-            Text: =ThisItem.Event_Name_txt
+            Text: =ThisItem.'E-mail'
             VerticalAlign: =VerticalAlign.Top
             Width: =Title7.Width
             X: =Title7.X
