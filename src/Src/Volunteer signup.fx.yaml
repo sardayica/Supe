@@ -117,6 +117,7 @@
                 );
                 Set(selectedItemJSON, 
                     JSON(
+                        { 
                                 volunteers: [
                                     ForAll(selectedVolunteers, 
                                         { 
@@ -125,6 +126,7 @@
                                         }
                                     )
                                 ]
+                            }
                     )
                 );
             Width: =362
