@@ -2,8 +2,18 @@
     Fill: =RGBA(184, 0, 0, 1)
     LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
 
-    "VolunteersSigndUp As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
+    Rectangle6 As rectangle:
         BorderColor: =RGBA(89, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =621
+        Width: =949
+        X: =397
+        Y: =125
+        ZIndex: =1
+
+    "VolunteersSigndUp As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
+        BorderColor: =RGBA(184, 0, 0, 1)
+        BorderThickness: =2
         DelayItemLoading: =true
         Height: =387
         Items: |-
@@ -17,9 +27,9 @@
         TemplateSize: =Min(416, Self.Height - 60)
         Width: =709
         WrapCount: =3
-        X: =655
-        Y: =101
-        ZIndex: =1
+        X: =640
+        Y: =126
+        ZIndex: =2
 
         Image4 As image:
             BorderColor: =RGBA(89, 0, 0, 1)
@@ -77,7 +87,7 @@
         BorderColor: =RGBA(89, 0, 0, 1)
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =579
+        Height: =621
         Items: |-
             =Filter(
                 'Database for Forms 2',
@@ -87,10 +97,10 @@
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =90
-        Width: =372
+        Width: =366
         X: =20
-        Y: =114
-        ZIndex: =2
+        Y: =126
+        ZIndex: =3
 
         Rectangle4_2 As rectangle:
             BorderColor: =RGBA(89, 0, 0, 1)
@@ -173,24 +183,15 @@
             Width: =4
             ZIndex: =6
 
-    Rectangle6 As rectangle:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =579
-        Width: =216
-        X: =424
-        Y: =114
-        ZIndex: =3
-
     FormViewer2 As formViewer:
         BorderColor: =RGBA(89, 0, 0, 1)
         DataSource: =Filter('Database for Forms 2', 'Database for Forms 2 (Visninger)'.'accepted events')
         Height: =538
         Item: =Gallery3_3.Selected
         NumberOfColumns: =1
-        Width: =232
-        X: =408
-        Y: =110
+        Width: =286
+        X: =396
+        Y: =124
         ZIndex: =4
 
         "'Number of volunteers_DataCard3' As typedDataCard.textualViewCard":
@@ -203,7 +204,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
-            Width: =232
+            Width: =286
             X: =0
             Y: =0
             ZIndex: =3
@@ -248,7 +249,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =232
+            Width: =286
             X: =0
             Y: =1
             ZIndex: =3
@@ -289,16 +290,15 @@
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(164, 38, 44, 1)
         FontWeight: =FontWeight.Semibold
-        Height: =52
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
         OnSelect: |
             =Volunteersmail.Run(EventPageEmail.Text, "We have found all the volunteers for your event", EventPageName_1.Text, VolunteersSigndUp.Selected.Volunteer_name_txt)
         Size: =15
         Text: ="Send info Volunteers"
-        Width: =268
-        X: =1044
-        Y: =652
+        Width: =228
+        X: =1101
+        Y: =690
         ZIndex: =5
 
     Button2_2 As button:
@@ -312,8 +312,8 @@
         OnSelect: =Set(FormEditable, false)
         Size: =15
         Text: ="Close Event"
-        X: =746
-        Y: =568
+        X: =706
+        Y: =608
         ZIndex: =6
 
     Button2_3 As button:
@@ -327,8 +327,8 @@
         OnSelect: =Set(FormEditable, true)
         Size: =15
         Text: ="ReOpen Event"
-        X: =955
-        Y: =568
+        X: =903
+        Y: =608
         ZIndex: =7
 
     Button1_5 As button:
@@ -344,8 +344,8 @@
         Size: =15
         Text: ="Send info Volunteers"
         Width: =268
-        X: =720
-        Y: =652
+        X: =737
+        Y: =684
         ZIndex: =8
 
     Label1_2 As label:
@@ -381,7 +381,7 @@
         OnSelect: =Navigate('EVENTS REQUEST')
         Size: =15
         Text: ="Events"
-        X: =1166
-        Y: =28
+        X: =1101
+        Y: =44
         ZIndex: =11
 
