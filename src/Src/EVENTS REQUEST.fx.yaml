@@ -110,7 +110,7 @@
         ZIndex: =2
 
         "'Adress _DataCard1' As typedDataCard.textualEditCard":
-            BorderColor: =RGBA(89, 0, 0, 1)
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_adress"
             Default: =ThisItem.'Address '
@@ -199,7 +199,7 @@
                 ZIndex: =4
 
         "'acceptance status' As typedDataCard.comboBoxOptionSetSingleEditCard":
-            BorderColor: =RGBA(89, 0, 0, 1)
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_acceptancestatus"
             Default: =ThisItem.acceptance_status
@@ -311,7 +311,7 @@
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Name"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -1129,7 +1129,7 @@
         BorderColor: =RGBA(89, 0, 0, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Image: =rødekors
+        Image: ='RødeKors_1'
         X: =228
         Y: =14
         ZIndex: =4
@@ -1194,6 +1194,7 @@
         ZIndex: =8
 
     Button4 As button:
+        BorderColor: =ColorFade(Self.Fill, -30%)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)

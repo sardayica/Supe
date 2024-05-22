@@ -419,12 +419,13 @@
         BorderColor: =RGBA(89, 0, 0, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Image: =rødekors
+        Image: ='RødeKors'
         X: =228
         Y: =14
         ZIndex: =10
 
     Button5 As button:
+        BorderColor: =ColorFade(Self.Fill, -30%)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
