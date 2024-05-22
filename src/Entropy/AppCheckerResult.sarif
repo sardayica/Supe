@@ -94,47 +94,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Volunteer signup'.Button1_5.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Volunteer signup'.Button1_5.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 89,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Volunteersmail.Run(selectedItemJSON; \"Volunteers found\"; Text(Gallery3_3.Selected.Email))"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Volunteer signup",
-                "type": "'Volunteer signup'.Button1_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "3",
-              "4"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArity",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Screen2.Button3_1.OnSelect"
                 }
               ],
