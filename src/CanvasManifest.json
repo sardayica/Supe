@@ -99,7 +99,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 11,
+    "BindingErrorCount": 10,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -134,6 +134,7 @@
   "ScreenOrder": [
     "EVENTS REQUEST",
     "Volunteer signup",
+    "PowerBi",
     "EVENTS ACCEPTED",
     "Screen2",
     "Volunteers - does not work",

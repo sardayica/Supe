@@ -94,6 +94,47 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Volunteer signup'.Button1_5.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Volunteer signup'.Button1_5.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 89,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Volunteersmail.Run(selectedItemJSON; \"Volunteers found\"; Text(Gallery3_3.Selected.Email))"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Volunteer signup",
+                "type": "'Volunteer signup'.Button1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "3",
+              "4"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArity",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Screen2.Button3_1.OnSelect"
                 }
               ],
@@ -121,47 +162,6 @@
             "arguments": [
               "4",
               "7"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArity",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.Button1_7.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.Button1_7.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 159,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Volunteersmail.Run(EventPageEmail.Text; \"We have found all the volunteers for your event\"; EventPageName_1.Text; VolunteersSigndUp.Selected.Volunteer_name_txt)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Screen2",
-                "type": "Screen2.Button1_7"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "4",
-              "3"
             ],
             "id": "issue"
           },
@@ -643,74 +643,33 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Volunteers - does not work'.Button1_3.OnSelect"
+                  "fullyQualifiedName": "'EVENTS ACCEPTED'.Button1_6.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Volunteers - does not work'.Button1_3.OnSelect",
+                  "fullyQualifiedName": "'EVENTS ACCEPTED'.Button1_6.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 300,
+                  "charLength": 89,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Volunteersmail.Run(\n    EventPageEmail.Text;\n    \"We have found all the volunteers for your event\";\n    EventPageName_1.Text;\n    Concat(\n        Filter(\n            'Volunteer sign ups';\n            Event_Name_txt = Gallery3_2.Selected.'Event Name'\n        ).Volunteer_name_txt;\n        \", \"\n    )\n)"
+                    "text": "Volunteersmail.Run(selectedItemJSON; \"Volunteers found\"; Text(Gallery3_3.Selected.Email))"
                   }
                 }
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Volunteers - does not work",
-                "type": "'Volunteers - does not work'.Button1_3"
+                "module": "EVENTS ACCEPTED",
+                "type": "'EVENTS ACCEPTED'.Button1_6"
               }
             }
           ],
           "message": {
             "arguments": [
-              "4",
-              "3"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArity",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Volunteers - does not work'.Button1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Volunteers - does not work'.Button1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 159,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Volunteersmail.Run(EventPageEmail.Text; \"We have found all the volunteers for your event\"; EventPageName_1.Text; VolunteersSigndU0.Selected.Volunteer_name_txt)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Volunteers - does not work",
-                "type": "'Volunteers - does not work'.Button1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "4",
-              "3"
+              "3",
+              "4"
             ],
             "id": "issue"
           },
