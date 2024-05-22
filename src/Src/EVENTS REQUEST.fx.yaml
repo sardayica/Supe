@@ -1143,7 +1143,9 @@
         FontWeight: =FontWeight.Semibold
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =SubmitForm(Form1)
+        OnSelect: |-
+            =SubmitForm(Form1);
+            Notify("Changes has been saved", NotificationType.Success, 5000);
         Size: =15
         Text: ="Save Changes"
         X: =916

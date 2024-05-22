@@ -448,7 +448,9 @@
         FontWeight: =FontWeight.Semibold
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =Volunteersmail.Run(selectedItemJSON, "Volunteers found", Text(Gallery3_3.Selected.Email), Text(Gallery3_3.Selected.Username));
+        OnSelect: |-
+            =Volunteersmail.Run(selectedItemJSON, "Volunteers found", Text(Gallery3_3.Selected.Email), Text(Gallery3_3.Selected.Username));
+            Notify("Email has been sent", NotificationType.Success, 5000);
         Size: =15
         Text: ="Send Volunteers List"
         Width: =228
