@@ -213,6 +213,9 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/u/patelronak/specialtrain-logicflows-2/1.0.1692.3734/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "a41420d0-2d09-45c6-8ccf-9e5e4b563dab": {
+          "value": "shared_office365"
+        },
         "workflowDisplayName": {
           "value": "Volunteers mail"
         },
@@ -222,6 +225,9 @@
         }
       },
       "parameterHintsV2": {
+        "shared_office365": {
+          "value": "a41420d0-2d09-45c6-8ccf-9e5e4b563dab"
+        },
         "workflowDisplayName": {
           "value": "Volunteers mail"
         },

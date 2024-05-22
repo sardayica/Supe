@@ -1,0 +1,16 @@
+"'Power BI' As screen":
+    Fill: =RGBA(168, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
+
+    PowerBI1 As powerbi:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        DashboardId: ="8a837df4-2267-46f6-8ddf-21ab7b2d0c1d"
+        Height: =655
+        TileUrl: |-
+            ="https://app.powerbi.com/embed?dashboardId=8a837df4-2267-46f6-8ddf-21ab7b2d0c1d&tileId=d3d5c861-2396-4d7f-8245-f91701d3d65a&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVdFU1QtRVVST1BFLUYtUFJJTUFSWS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCIsImVtYmVkRmVhdHVyZXMiOnt9fQ%3d%3d"
+        Width: =1244
+        WorkspaceId: ="a2729b2f-867d-40c0-afdd-12816705505f"
+        X: =66
+        Y: =57
+        ZIndex: =1
+

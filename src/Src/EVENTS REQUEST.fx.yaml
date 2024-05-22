@@ -36,7 +36,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Organisation '
+            Text: =ThisItem.'Organization '
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 86
             X: =16
@@ -603,12 +603,12 @@
             BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_organisation"
-            Default: =ThisItem.'Organisation '
+            Default: =ThisItem.'Organization '
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Organisation ')
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Organization ')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, 'Organisation ')
+            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, 'Organization ')
             Required: =true
             Update: =DataCardValue4.Text
             Width: =312
@@ -1129,7 +1129,7 @@
         BorderColor: =RGBA(89, 0, 0, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Image: ='RødeKors_1'
+        Image: =RødeKors_1
         X: =228
         Y: =14
         ZIndex: =4

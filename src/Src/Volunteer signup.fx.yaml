@@ -165,7 +165,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Organisation '
+            Text: =ThisItem.'Organization '
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 86
             X: =16
@@ -419,7 +419,7 @@
         BorderColor: =RGBA(89, 0, 0, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Image: ='RødeKors'
+        Image: =RødeKors
         X: =228
         Y: =14
         ZIndex: =10

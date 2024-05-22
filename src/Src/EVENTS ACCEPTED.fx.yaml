@@ -475,12 +475,12 @@
             BorderColor: =RGBA(184, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr864_organisation"
-            Default: =ThisItem.'Organisation '
+            Default: =ThisItem.'Organization '
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Organisation ')
+            DisplayName: =DataSourceInfo([@'Database for Forms 2'],DataSourceInfo.DisplayName,'Organization ')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, 'Organisation ')
+            MaxLength: =DataSourceInfo([@'Database for Forms 2'], DataSourceInfo.MaxLength, 'Organization ')
             Required: =true
             Update: =DataCardValue4_1.Text
             Width: =312

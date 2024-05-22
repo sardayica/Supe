@@ -2,6 +2,67 @@
   "QualifiedValues": [
     {
       "Kind": "default.cds_cr864_databaseforprofiles_forms",
+      "Namespace": "Database for Profiles (Forms)",
+      "Values": {
+        "Information": "e1593bcd-be29-4741-b63e-a35ceac83411"
+      }
+    },
+    {
+      "Kind": "default.cds_cr864_databaseforforms_forms",
+      "Namespace": "Database for Forms (Forms)",
+      "Values": {
+        "Information": "4527693a-7fff-42f4-8208-cbfeff607888"
+      }
+    },
+    {
+      "Kind": "default.cds_cr864_databaseforforms2_forms",
+      "Namespace": "Database for Forms 2 (Forms)",
+      "Values": {
+        "detailed": "16ad3979-d316-ef11-9f89-002248a0614d",
+        "Information": "983e2021-15ce-411f-98d9-d5a88b2512a3"
+      }
+    },
+    {
+      "Kind": "default.cds_contact_forms",
+      "Namespace": "Contacts (Forms)",
+      "Values": {
+        "account contact card": "29de27bc-a257-4f29-99cf-bab4a84e688f",
+        "Add child profile": "840cdb74-381c-ec11-b6e6-000d3a1b2099",
+        "Contact": "1fed44d1-ae68-4a41-bd2b-f13acac4acfa",
+        "contact card": "707fc57b-c5e6-471b-a180-e37ed28a38e2",
+        "Contact Card form": "bc0f68dd-a4b1-4a8f-bed3-c8f5db2f89cf",
+        "Contact Quick Create": "661157fe-2fc9-4eaa-835f-5bfa2f7b64f7",
+        "Contact Quick Form": "bdb0ae1c-32fa-4374-b637-8dafe107bc44",
+        "Contact Reference Panel": "d880c3cf-80e2-42f3-82f9-24d040d09f17",
+        "Edit child profile": "0e511009-f625-ec11-b6e5-002248252fb3",
+        "Information": "894cc46a-b0cb-4ab0-8bf6-200544e46a2d",
+        "Invite Web Form": "d6190b35-9474-4098-9698-33f6627eb3bf",
+        "Live Persona Card Form": "449faa0e-f471-48ec-87d0-4719909546d2",
+        "Portal Contact (Enhanced)": "c1c97961-2d42-4103-abf8-2fe2bdf38224",
+        "Profile Web Form (Enhanced)": "bddc0100-0dbe-4562-aafe-31d08c8ab506",
+        "Profile Web Form (Enhanced) - Japanese": "01124dd8-9bff-4cc0-bb33-ea9d943c3f9f",
+        "Recent Cases and Entitlements": "f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e",
+        "Social Profiles": "7bb87dfd-ec3e-4ed9-8e3e-5725d3067295",
+        "Update Contact": "26843818-6508-4afe-9342-5fae2ebf15ca"
+      }
+    },
+    {
+      "Kind": "default.cds_cr864_volunteersignups_forms",
+      "Namespace": "Volunteer sign ups (Forms)",
+      "Values": {
+        "Information": "9a83efd0-4be8-4fbb-99e2-f41aff70255f",
+        "test": "261e7ed2-c516-ef11-9f89-002248a0614d"
+      }
+    },
+    {
+      "Kind": "default.cds_cr864_formeditability_forms",
+      "Namespace": "Form Editabilities (Forms)",
+      "Values": {
+        "Information": "845becf2-0ec4-4552-accd-f1eeca2b1a8b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr864_databaseforprofiles_forms",
       "Namespace": "Database for Profiles (Formularer)",
       "Values": {
         "Information": "e1593bcd-be29-4741-b63e-a35ceac83411"
@@ -60,65 +121,6 @@
       "Values": {
         "Information": "845becf2-0ec4-4552-accd-f1eeca2b1a8b"
       }
-    },
-    {
-      "Kind": "default.cds_cr864_databaseforprofiles_forms",
-      "Namespace": "Database for Profiles (Forms)",
-      "Values": {
-        "Information": "e1593bcd-be29-4741-b63e-a35ceac83411"
-      }
-    },
-    {
-      "Kind": "default.cds_cr864_databaseforforms_forms",
-      "Namespace": "Database for Forms (Forms)",
-      "Values": {
-        "Information": "4527693a-7fff-42f4-8208-cbfeff607888"
-      }
-    },
-    {
-      "Kind": "default.cds_cr864_databaseforforms2_forms",
-      "Namespace": "Database for Forms 2 (Forms)",
-      "Values": {
-        "detailed": "16ad3979-d316-ef11-9f89-002248a0614d",
-        "Information": "983e2021-15ce-411f-98d9-d5a88b2512a3"
-      }
-    },
-    {
-      "Kind": "default.cds_contact_forms",
-      "Namespace": "Contacts (Forms)",
-      "Values": {
-        "account contact card": "29de27bc-a257-4f29-99cf-bab4a84e688f",
-        "Add child profile": "840cdb74-381c-ec11-b6e6-000d3a1b2099",
-        "Contact": "1fed44d1-ae68-4a41-bd2b-f13acac4acfa",
-        "contact card": "707fc57b-c5e6-471b-a180-e37ed28a38e2",
-        "Contact Card form": "bc0f68dd-a4b1-4a8f-bed3-c8f5db2f89cf",
-        "Contact Quick Create": "661157fe-2fc9-4eaa-835f-5bfa2f7b64f7",
-        "Contact Quick Form": "bdb0ae1c-32fa-4374-b637-8dafe107bc44",
-        "Contact Reference Panel": "d880c3cf-80e2-42f3-82f9-24d040d09f17",
-        "Edit child profile": "0e511009-f625-ec11-b6e5-002248252fb3",
-        "Information": "894cc46a-b0cb-4ab0-8bf6-200544e46a2d",
-        "Invite Web Form": "d6190b35-9474-4098-9698-33f6627eb3bf",
-        "Live Persona Card Form": "449faa0e-f471-48ec-87d0-4719909546d2",
-        "Portal Contact (Enhanced)": "c1c97961-2d42-4103-abf8-2fe2bdf38224",
-        "Profile Web Form (Enhanced)": "bddc0100-0dbe-4562-aafe-31d08c8ab506",
-        "Profile Web Form (Enhanced) - Japanese": "01124dd8-9bff-4cc0-bb33-ea9d943c3f9f",
-        "Recent Cases and Entitlements": "f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e",
-        "Social Profiles": "7bb87dfd-ec3e-4ed9-8e3e-5725d3067295",
-        "Update Contact": "26843818-6508-4afe-9342-5fae2ebf15ca"
-      }
-    },
-    {
-      "Kind": "default.cds_cr864_volunteersignups_forms",
-      "Namespace": "Volunteer sign ups (Forms)",
-      "Values": {
-        "Information": "9a83efd0-4be8-4fbb-99e2-f41aff70255f",
-        "test": "261e7ed2-c516-ef11-9f89-002248a0614d"
-      }
-    },
-    {
-      "Kind": "default.cds_cr864_formeditability_forms",
-      "Namespace": "Form Editabilities (Forms)",
-      "Values": {}
     }
   ]
 }
