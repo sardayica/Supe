@@ -10,14 +10,18 @@
     "Name": "Database for Forms 2",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
       "cr864_acceptancestatus": "acceptance_status",
       "cr864_adress": "Address ",
+      "cr864_capacity_status": "Capacity_Status",
+      "cr864_databaseforforms2_Annotations": "Notes",
       "cr864_databaseforforms2_AsyncOperations": "System Jobs",
       "cr864_databaseforforms2_BulkDeleteFailures": "Bulk Delete Failures",
       "cr864_databaseforforms2_connections1": "Connections (cr864_databaseforforms2_connections1)",
       "cr864_databaseforforms2_connections2": "Connections (cr864_databaseforforms2_connections2)",
       "cr864_databaseforforms2_DuplicateBaseRecord": "Duplicate Records (cr864_databaseforforms2_DuplicateBaseRecord)",
       "cr864_databaseforforms2_DuplicateMatchingRecord": "Duplicate Records (cr864_databaseforforms2_DuplicateMatchingRecord)",
+      "cr864_databaseforforms2_FileAttachments": "FileAttachments",
       "cr864_databaseforforms2_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
       "cr864_databaseforforms2_PrincipalObjectAttributeAccesses": "Field Sharing",
       "cr864_databaseforforms2_ProcessSession": "Process Sessions",
@@ -27,6 +31,7 @@
       "cr864_description": "Description",
       "cr864_email": "Email",
       "cr864_image": "Image",
+      "cr864_image_file": "Image_File",
       "cr864_iseditable": "IsEditable",
       "cr864_name": "Event Name",
       "cr864_numberofvolunteers": "Number of volunteers",
@@ -152,6 +157,26 @@
     },
     "OptionSetTypeKey": "StatusType",
     "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Database for Forms 2",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "open/Closed",
+    "Name": "cr864_openclosed",
+    "OptionSetInfoNameMapping": {
+      "424920000": "Open",
+      "424920001": "Closed"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr864_capacity_status",
+        "OptionSetReferenceEntityName": "Database for Forms 2"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr864_capacity_status",
     "RelatedEntityName": "Database for Forms 2",
     "Type": "OptionSetInfo"
   }
